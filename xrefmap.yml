@@ -1,0 +1,1089 @@
+### YamlMime:XRefMap
+sorted: true
+references:
+- uid: SnowflakeID
+  name: SnowflakeID
+  href: api/SnowflakeID.html
+  commentId: N:SnowflakeID
+  fullName: SnowflakeID
+  nameWithType: SnowflakeID
+- uid: SnowflakeID.Exceptions
+  name: SnowflakeID.Exceptions
+  href: api/SnowflakeID.Exceptions.html
+  commentId: N:SnowflakeID.Exceptions
+  fullName: SnowflakeID.Exceptions
+  nameWithType: SnowflakeID.Exceptions
+- uid: SnowflakeID.Exceptions.SnowflakesUsingDifferentEpochsException
+  name: SnowflakesUsingDifferentEpochsException
+  href: api/SnowflakeID.Exceptions.SnowflakesUsingDifferentEpochsException.html
+  commentId: T:SnowflakeID.Exceptions.SnowflakesUsingDifferentEpochsException
+  fullName: SnowflakeID.Exceptions.SnowflakesUsingDifferentEpochsException
+  nameWithType: SnowflakesUsingDifferentEpochsException
+- uid: SnowflakeID.Exceptions.SnowflakesUsingDifferentEpochsException.#ctor
+  name: SnowflakesUsingDifferentEpochsException()
+  href: api/SnowflakeID.Exceptions.SnowflakesUsingDifferentEpochsException.html#SnowflakeID_Exceptions_SnowflakesUsingDifferentEpochsException__ctor
+  commentId: M:SnowflakeID.Exceptions.SnowflakesUsingDifferentEpochsException.#ctor
+  name.vb: New()
+  fullName: SnowflakeID.Exceptions.SnowflakesUsingDifferentEpochsException.SnowflakesUsingDifferentEpochsException()
+  fullName.vb: SnowflakeID.Exceptions.SnowflakesUsingDifferentEpochsException.New()
+  nameWithType: SnowflakesUsingDifferentEpochsException.SnowflakesUsingDifferentEpochsException()
+  nameWithType.vb: SnowflakesUsingDifferentEpochsException.New()
+- uid: SnowflakeID.Exceptions.SnowflakesUsingDifferentEpochsException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
+  name: SnowflakesUsingDifferentEpochsException(SerializationInfo, StreamingContext)
+  href: api/SnowflakeID.Exceptions.SnowflakesUsingDifferentEpochsException.html#SnowflakeID_Exceptions_SnowflakesUsingDifferentEpochsException__ctor_System_Runtime_Serialization_SerializationInfo_System_Runtime_Serialization_StreamingContext_
+  commentId: M:SnowflakeID.Exceptions.SnowflakesUsingDifferentEpochsException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
+  name.vb: New(SerializationInfo, StreamingContext)
+  fullName: SnowflakeID.Exceptions.SnowflakesUsingDifferentEpochsException.SnowflakesUsingDifferentEpochsException(System.Runtime.Serialization.SerializationInfo, System.Runtime.Serialization.StreamingContext)
+  fullName.vb: SnowflakeID.Exceptions.SnowflakesUsingDifferentEpochsException.New(System.Runtime.Serialization.SerializationInfo, System.Runtime.Serialization.StreamingContext)
+  nameWithType: SnowflakesUsingDifferentEpochsException.SnowflakesUsingDifferentEpochsException(SerializationInfo, StreamingContext)
+  nameWithType.vb: SnowflakesUsingDifferentEpochsException.New(SerializationInfo, StreamingContext)
+- uid: SnowflakeID.Exceptions.SnowflakesUsingDifferentEpochsException.#ctor(System.String)
+  name: SnowflakesUsingDifferentEpochsException(string)
+  href: api/SnowflakeID.Exceptions.SnowflakesUsingDifferentEpochsException.html#SnowflakeID_Exceptions_SnowflakesUsingDifferentEpochsException__ctor_System_String_
+  commentId: M:SnowflakeID.Exceptions.SnowflakesUsingDifferentEpochsException.#ctor(System.String)
+  name.vb: New(String)
+  fullName: SnowflakeID.Exceptions.SnowflakesUsingDifferentEpochsException.SnowflakesUsingDifferentEpochsException(string)
+  fullName.vb: SnowflakeID.Exceptions.SnowflakesUsingDifferentEpochsException.New(String)
+  nameWithType: SnowflakesUsingDifferentEpochsException.SnowflakesUsingDifferentEpochsException(string)
+  nameWithType.vb: SnowflakesUsingDifferentEpochsException.New(String)
+- uid: SnowflakeID.Exceptions.SnowflakesUsingDifferentEpochsException.#ctor(System.String,System.Exception)
+  name: SnowflakesUsingDifferentEpochsException(string, Exception)
+  href: api/SnowflakeID.Exceptions.SnowflakesUsingDifferentEpochsException.html#SnowflakeID_Exceptions_SnowflakesUsingDifferentEpochsException__ctor_System_String_System_Exception_
+  commentId: M:SnowflakeID.Exceptions.SnowflakesUsingDifferentEpochsException.#ctor(System.String,System.Exception)
+  name.vb: New(String, Exception)
+  fullName: SnowflakeID.Exceptions.SnowflakesUsingDifferentEpochsException.SnowflakesUsingDifferentEpochsException(string, System.Exception)
+  fullName.vb: SnowflakeID.Exceptions.SnowflakesUsingDifferentEpochsException.New(String, System.Exception)
+  nameWithType: SnowflakesUsingDifferentEpochsException.SnowflakesUsingDifferentEpochsException(string, Exception)
+  nameWithType.vb: SnowflakesUsingDifferentEpochsException.New(String, Exception)
+- uid: SnowflakeID.Exceptions.SnowflakesUsingDifferentEpochsException.#ctor(System.String,System.String)
+  name: SnowflakesUsingDifferentEpochsException(string, string)
+  href: api/SnowflakeID.Exceptions.SnowflakesUsingDifferentEpochsException.html#SnowflakeID_Exceptions_SnowflakesUsingDifferentEpochsException__ctor_System_String_System_String_
+  commentId: M:SnowflakeID.Exceptions.SnowflakesUsingDifferentEpochsException.#ctor(System.String,System.String)
+  name.vb: New(String, String)
+  fullName: SnowflakeID.Exceptions.SnowflakesUsingDifferentEpochsException.SnowflakesUsingDifferentEpochsException(string, string)
+  fullName.vb: SnowflakeID.Exceptions.SnowflakesUsingDifferentEpochsException.New(String, String)
+  nameWithType: SnowflakesUsingDifferentEpochsException.SnowflakesUsingDifferentEpochsException(string, string)
+  nameWithType.vb: SnowflakesUsingDifferentEpochsException.New(String, String)
+- uid: SnowflakeID.Exceptions.SnowflakesUsingDifferentEpochsException.#ctor(System.String,System.String,System.Exception)
+  name: SnowflakesUsingDifferentEpochsException(string, string, Exception)
+  href: api/SnowflakeID.Exceptions.SnowflakesUsingDifferentEpochsException.html#SnowflakeID_Exceptions_SnowflakesUsingDifferentEpochsException__ctor_System_String_System_String_System_Exception_
+  commentId: M:SnowflakeID.Exceptions.SnowflakesUsingDifferentEpochsException.#ctor(System.String,System.String,System.Exception)
+  name.vb: New(String, String, Exception)
+  fullName: SnowflakeID.Exceptions.SnowflakesUsingDifferentEpochsException.SnowflakesUsingDifferentEpochsException(string, string, System.Exception)
+  fullName.vb: SnowflakeID.Exceptions.SnowflakesUsingDifferentEpochsException.New(String, String, System.Exception)
+  nameWithType: SnowflakesUsingDifferentEpochsException.SnowflakesUsingDifferentEpochsException(string, string, Exception)
+  nameWithType.vb: SnowflakesUsingDifferentEpochsException.New(String, String, Exception)
+- uid: SnowflakeID.Exceptions.SnowflakesUsingDifferentEpochsException.#ctor*
+  name: SnowflakesUsingDifferentEpochsException
+  href: api/SnowflakeID.Exceptions.SnowflakesUsingDifferentEpochsException.html#SnowflakeID_Exceptions_SnowflakesUsingDifferentEpochsException__ctor_
+  commentId: Overload:SnowflakeID.Exceptions.SnowflakesUsingDifferentEpochsException.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: SnowflakeID.Exceptions.SnowflakesUsingDifferentEpochsException.SnowflakesUsingDifferentEpochsException
+  fullName.vb: SnowflakeID.Exceptions.SnowflakesUsingDifferentEpochsException.New
+  nameWithType: SnowflakesUsingDifferentEpochsException.SnowflakesUsingDifferentEpochsException
+  nameWithType.vb: SnowflakesUsingDifferentEpochsException.New
+- uid: SnowflakeID.Exceptions.SnowflakesUsingDifferentEpochsException.DefaultMessage
+  name: DefaultMessage
+  href: api/SnowflakeID.Exceptions.SnowflakesUsingDifferentEpochsException.html#SnowflakeID_Exceptions_SnowflakesUsingDifferentEpochsException_DefaultMessage
+  commentId: F:SnowflakeID.Exceptions.SnowflakesUsingDifferentEpochsException.DefaultMessage
+  fullName: SnowflakeID.Exceptions.SnowflakesUsingDifferentEpochsException.DefaultMessage
+  nameWithType: SnowflakesUsingDifferentEpochsException.DefaultMessage
+- uid: SnowflakeID.Helpers
+  name: SnowflakeID.Helpers
+  href: api/SnowflakeID.Helpers.html
+  commentId: N:SnowflakeID.Helpers
+  fullName: SnowflakeID.Helpers
+  nameWithType: SnowflakeID.Helpers
+- uid: SnowflakeID.Helpers.GlobalConstants
+  name: GlobalConstants
+  href: api/SnowflakeID.Helpers.GlobalConstants.html
+  commentId: T:SnowflakeID.Helpers.GlobalConstants
+  fullName: SnowflakeID.Helpers.GlobalConstants
+  nameWithType: GlobalConstants
+- uid: SnowflakeID.Helpers.GlobalConstants.DefaultEpoch
+  name: DefaultEpoch
+  href: api/SnowflakeID.Helpers.GlobalConstants.html#SnowflakeID_Helpers_GlobalConstants_DefaultEpoch
+  commentId: F:SnowflakeID.Helpers.GlobalConstants.DefaultEpoch
+  fullName: SnowflakeID.Helpers.GlobalConstants.DefaultEpoch
+  nameWithType: GlobalConstants.DefaultEpoch
+- uid: SnowflakeID.ISnowflakeIDGenerator
+  name: ISnowflakeIDGenerator
+  href: api/SnowflakeID.ISnowflakeIDGenerator.html
+  commentId: T:SnowflakeID.ISnowflakeIDGenerator
+  fullName: SnowflakeID.ISnowflakeIDGenerator
+  nameWithType: ISnowflakeIDGenerator
+- uid: SnowflakeID.ISnowflakeIDGenerator.ConfiguredEpoch
+  name: ConfiguredEpoch
+  href: api/SnowflakeID.ISnowflakeIDGenerator.html#SnowflakeID_ISnowflakeIDGenerator_ConfiguredEpoch
+  commentId: P:SnowflakeID.ISnowflakeIDGenerator.ConfiguredEpoch
+  fullName: SnowflakeID.ISnowflakeIDGenerator.ConfiguredEpoch
+  nameWithType: ISnowflakeIDGenerator.ConfiguredEpoch
+- uid: SnowflakeID.ISnowflakeIDGenerator.ConfiguredEpoch*
+  name: ConfiguredEpoch
+  href: api/SnowflakeID.ISnowflakeIDGenerator.html#SnowflakeID_ISnowflakeIDGenerator_ConfiguredEpoch_
+  commentId: Overload:SnowflakeID.ISnowflakeIDGenerator.ConfiguredEpoch
+  isSpec: "True"
+  fullName: SnowflakeID.ISnowflakeIDGenerator.ConfiguredEpoch
+  nameWithType: ISnowflakeIDGenerator.ConfiguredEpoch
+- uid: SnowflakeID.ISnowflakeIDGenerator.ConfiguredMachineId
+  name: ConfiguredMachineId
+  href: api/SnowflakeID.ISnowflakeIDGenerator.html#SnowflakeID_ISnowflakeIDGenerator_ConfiguredMachineId
+  commentId: P:SnowflakeID.ISnowflakeIDGenerator.ConfiguredMachineId
+  fullName: SnowflakeID.ISnowflakeIDGenerator.ConfiguredMachineId
+  nameWithType: ISnowflakeIDGenerator.ConfiguredMachineId
+- uid: SnowflakeID.ISnowflakeIDGenerator.ConfiguredMachineId*
+  name: ConfiguredMachineId
+  href: api/SnowflakeID.ISnowflakeIDGenerator.html#SnowflakeID_ISnowflakeIDGenerator_ConfiguredMachineId_
+  commentId: Overload:SnowflakeID.ISnowflakeIDGenerator.ConfiguredMachineId
+  isSpec: "True"
+  fullName: SnowflakeID.ISnowflakeIDGenerator.ConfiguredMachineId
+  nameWithType: ISnowflakeIDGenerator.ConfiguredMachineId
+- uid: SnowflakeID.ISnowflakeIDGenerator.GetCode
+  name: GetCode()
+  href: api/SnowflakeID.ISnowflakeIDGenerator.html#SnowflakeID_ISnowflakeIDGenerator_GetCode
+  commentId: M:SnowflakeID.ISnowflakeIDGenerator.GetCode
+  fullName: SnowflakeID.ISnowflakeIDGenerator.GetCode()
+  nameWithType: ISnowflakeIDGenerator.GetCode()
+- uid: SnowflakeID.ISnowflakeIDGenerator.GetCode*
+  name: GetCode
+  href: api/SnowflakeID.ISnowflakeIDGenerator.html#SnowflakeID_ISnowflakeIDGenerator_GetCode_
+  commentId: Overload:SnowflakeID.ISnowflakeIDGenerator.GetCode
+  isSpec: "True"
+  fullName: SnowflakeID.ISnowflakeIDGenerator.GetCode
+  nameWithType: ISnowflakeIDGenerator.GetCode
+- uid: SnowflakeID.ISnowflakeIDGenerator.GetCodeString
+  name: GetCodeString()
+  href: api/SnowflakeID.ISnowflakeIDGenerator.html#SnowflakeID_ISnowflakeIDGenerator_GetCodeString
+  commentId: M:SnowflakeID.ISnowflakeIDGenerator.GetCodeString
+  fullName: SnowflakeID.ISnowflakeIDGenerator.GetCodeString()
+  nameWithType: ISnowflakeIDGenerator.GetCodeString()
+- uid: SnowflakeID.ISnowflakeIDGenerator.GetCodeString*
+  name: GetCodeString
+  href: api/SnowflakeID.ISnowflakeIDGenerator.html#SnowflakeID_ISnowflakeIDGenerator_GetCodeString_
+  commentId: Overload:SnowflakeID.ISnowflakeIDGenerator.GetCodeString
+  isSpec: "True"
+  fullName: SnowflakeID.ISnowflakeIDGenerator.GetCodeString
+  nameWithType: ISnowflakeIDGenerator.GetCodeString
+- uid: SnowflakeID.ISnowflakeIDGenerator.GetSnowflake
+  name: GetSnowflake()
+  href: api/SnowflakeID.ISnowflakeIDGenerator.html#SnowflakeID_ISnowflakeIDGenerator_GetSnowflake
+  commentId: M:SnowflakeID.ISnowflakeIDGenerator.GetSnowflake
+  fullName: SnowflakeID.ISnowflakeIDGenerator.GetSnowflake()
+  nameWithType: ISnowflakeIDGenerator.GetSnowflake()
+- uid: SnowflakeID.ISnowflakeIDGenerator.GetSnowflake*
+  name: GetSnowflake
+  href: api/SnowflakeID.ISnowflakeIDGenerator.html#SnowflakeID_ISnowflakeIDGenerator_GetSnowflake_
+  commentId: Overload:SnowflakeID.ISnowflakeIDGenerator.GetSnowflake
+  isSpec: "True"
+  fullName: SnowflakeID.ISnowflakeIDGenerator.GetSnowflake
+  nameWithType: ISnowflakeIDGenerator.GetSnowflake
+- uid: SnowflakeID.ISnowflakeIDGeneratorClsCompliant
+  name: ISnowflakeIDGeneratorClsCompliant
+  href: api/SnowflakeID.ISnowflakeIDGeneratorClsCompliant.html
+  commentId: T:SnowflakeID.ISnowflakeIDGeneratorClsCompliant
+  fullName: SnowflakeID.ISnowflakeIDGeneratorClsCompliant
+  nameWithType: ISnowflakeIDGeneratorClsCompliant
+- uid: SnowflakeID.ISnowflakeIDGeneratorClsCompliant.ConfiguredEpoch
+  name: ConfiguredEpoch
+  href: api/SnowflakeID.ISnowflakeIDGeneratorClsCompliant.html#SnowflakeID_ISnowflakeIDGeneratorClsCompliant_ConfiguredEpoch
+  commentId: P:SnowflakeID.ISnowflakeIDGeneratorClsCompliant.ConfiguredEpoch
+  fullName: SnowflakeID.ISnowflakeIDGeneratorClsCompliant.ConfiguredEpoch
+  nameWithType: ISnowflakeIDGeneratorClsCompliant.ConfiguredEpoch
+- uid: SnowflakeID.ISnowflakeIDGeneratorClsCompliant.ConfiguredEpoch*
+  name: ConfiguredEpoch
+  href: api/SnowflakeID.ISnowflakeIDGeneratorClsCompliant.html#SnowflakeID_ISnowflakeIDGeneratorClsCompliant_ConfiguredEpoch_
+  commentId: Overload:SnowflakeID.ISnowflakeIDGeneratorClsCompliant.ConfiguredEpoch
+  isSpec: "True"
+  fullName: SnowflakeID.ISnowflakeIDGeneratorClsCompliant.ConfiguredEpoch
+  nameWithType: ISnowflakeIDGeneratorClsCompliant.ConfiguredEpoch
+- uid: SnowflakeID.ISnowflakeIDGeneratorClsCompliant.ConfiguredMachineId
+  name: ConfiguredMachineId
+  href: api/SnowflakeID.ISnowflakeIDGeneratorClsCompliant.html#SnowflakeID_ISnowflakeIDGeneratorClsCompliant_ConfiguredMachineId
+  commentId: P:SnowflakeID.ISnowflakeIDGeneratorClsCompliant.ConfiguredMachineId
+  fullName: SnowflakeID.ISnowflakeIDGeneratorClsCompliant.ConfiguredMachineId
+  nameWithType: ISnowflakeIDGeneratorClsCompliant.ConfiguredMachineId
+- uid: SnowflakeID.ISnowflakeIDGeneratorClsCompliant.ConfiguredMachineId*
+  name: ConfiguredMachineId
+  href: api/SnowflakeID.ISnowflakeIDGeneratorClsCompliant.html#SnowflakeID_ISnowflakeIDGeneratorClsCompliant_ConfiguredMachineId_
+  commentId: Overload:SnowflakeID.ISnowflakeIDGeneratorClsCompliant.ConfiguredMachineId
+  isSpec: "True"
+  fullName: SnowflakeID.ISnowflakeIDGeneratorClsCompliant.ConfiguredMachineId
+  nameWithType: ISnowflakeIDGeneratorClsCompliant.ConfiguredMachineId
+- uid: SnowflakeID.ISnowflakeIDGeneratorClsCompliant.GetCodeString
+  name: GetCodeString()
+  href: api/SnowflakeID.ISnowflakeIDGeneratorClsCompliant.html#SnowflakeID_ISnowflakeIDGeneratorClsCompliant_GetCodeString
+  commentId: M:SnowflakeID.ISnowflakeIDGeneratorClsCompliant.GetCodeString
+  fullName: SnowflakeID.ISnowflakeIDGeneratorClsCompliant.GetCodeString()
+  nameWithType: ISnowflakeIDGeneratorClsCompliant.GetCodeString()
+- uid: SnowflakeID.ISnowflakeIDGeneratorClsCompliant.GetCodeString*
+  name: GetCodeString
+  href: api/SnowflakeID.ISnowflakeIDGeneratorClsCompliant.html#SnowflakeID_ISnowflakeIDGeneratorClsCompliant_GetCodeString_
+  commentId: Overload:SnowflakeID.ISnowflakeIDGeneratorClsCompliant.GetCodeString
+  isSpec: "True"
+  fullName: SnowflakeID.ISnowflakeIDGeneratorClsCompliant.GetCodeString
+  nameWithType: ISnowflakeIDGeneratorClsCompliant.GetCodeString
+- uid: SnowflakeID.ISnowflakeIDGeneratorClsCompliant.GetSnowflake
+  name: GetSnowflake()
+  href: api/SnowflakeID.ISnowflakeIDGeneratorClsCompliant.html#SnowflakeID_ISnowflakeIDGeneratorClsCompliant_GetSnowflake
+  commentId: M:SnowflakeID.ISnowflakeIDGeneratorClsCompliant.GetSnowflake
+  fullName: SnowflakeID.ISnowflakeIDGeneratorClsCompliant.GetSnowflake()
+  nameWithType: ISnowflakeIDGeneratorClsCompliant.GetSnowflake()
+- uid: SnowflakeID.ISnowflakeIDGeneratorClsCompliant.GetSnowflake*
+  name: GetSnowflake
+  href: api/SnowflakeID.ISnowflakeIDGeneratorClsCompliant.html#SnowflakeID_ISnowflakeIDGeneratorClsCompliant_GetSnowflake_
+  commentId: Overload:SnowflakeID.ISnowflakeIDGeneratorClsCompliant.GetSnowflake
+  isSpec: "True"
+  fullName: SnowflakeID.ISnowflakeIDGeneratorClsCompliant.GetSnowflake
+  nameWithType: ISnowflakeIDGeneratorClsCompliant.GetSnowflake
+- uid: SnowflakeID.Snowflake
+  name: Snowflake
+  href: api/SnowflakeID.Snowflake.html
+  commentId: T:SnowflakeID.Snowflake
+  fullName: SnowflakeID.Snowflake
+  nameWithType: Snowflake
+- uid: SnowflakeID.Snowflake.#ctor
+  name: Snowflake()
+  href: api/SnowflakeID.Snowflake.html#SnowflakeID_Snowflake__ctor
+  commentId: M:SnowflakeID.Snowflake.#ctor
+  name.vb: New()
+  fullName: SnowflakeID.Snowflake.Snowflake()
+  fullName.vb: SnowflakeID.Snowflake.New()
+  nameWithType: Snowflake.Snowflake()
+  nameWithType.vb: Snowflake.New()
+- uid: SnowflakeID.Snowflake.#ctor(System.DateTime)
+  name: Snowflake(DateTime)
+  href: api/SnowflakeID.Snowflake.html#SnowflakeID_Snowflake__ctor_System_DateTime_
+  commentId: M:SnowflakeID.Snowflake.#ctor(System.DateTime)
+  name.vb: New(Date)
+  fullName: SnowflakeID.Snowflake.Snowflake(System.DateTime)
+  fullName.vb: SnowflakeID.Snowflake.New(Date)
+  nameWithType: Snowflake.Snowflake(DateTime)
+  nameWithType.vb: Snowflake.New(Date)
+- uid: SnowflakeID.Snowflake.#ctor*
+  name: Snowflake
+  href: api/SnowflakeID.Snowflake.html#SnowflakeID_Snowflake__ctor_
+  commentId: Overload:SnowflakeID.Snowflake.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: SnowflakeID.Snowflake.Snowflake
+  fullName.vb: SnowflakeID.Snowflake.New
+  nameWithType: Snowflake.Snowflake
+  nameWithType.vb: Snowflake.New
+- uid: SnowflakeID.Snowflake.ChangeEpoch(System.DateTime)
+  name: ChangeEpoch(DateTime)
+  href: api/SnowflakeID.Snowflake.html#SnowflakeID_Snowflake_ChangeEpoch_System_DateTime_
+  commentId: M:SnowflakeID.Snowflake.ChangeEpoch(System.DateTime)
+  name.vb: ChangeEpoch(Date)
+  fullName: SnowflakeID.Snowflake.ChangeEpoch(System.DateTime)
+  fullName.vb: SnowflakeID.Snowflake.ChangeEpoch(Date)
+  nameWithType: Snowflake.ChangeEpoch(DateTime)
+  nameWithType.vb: Snowflake.ChangeEpoch(Date)
+- uid: SnowflakeID.Snowflake.ChangeEpoch*
+  name: ChangeEpoch
+  href: api/SnowflakeID.Snowflake.html#SnowflakeID_Snowflake_ChangeEpoch_
+  commentId: Overload:SnowflakeID.Snowflake.ChangeEpoch
+  isSpec: "True"
+  fullName: SnowflakeID.Snowflake.ChangeEpoch
+  nameWithType: Snowflake.ChangeEpoch
+- uid: SnowflakeID.Snowflake.Code
+  name: Code
+  href: api/SnowflakeID.Snowflake.html#SnowflakeID_Snowflake_Code
+  commentId: P:SnowflakeID.Snowflake.Code
+  fullName: SnowflakeID.Snowflake.Code
+  nameWithType: Snowflake.Code
+- uid: SnowflakeID.Snowflake.Code*
+  name: Code
+  href: api/SnowflakeID.Snowflake.html#SnowflakeID_Snowflake_Code_
+  commentId: Overload:SnowflakeID.Snowflake.Code
+  isSpec: "True"
+  fullName: SnowflakeID.Snowflake.Code
+  nameWithType: Snowflake.Code
+- uid: SnowflakeID.Snowflake.CompareTo(SnowflakeID.Snowflake)
+  name: CompareTo(Snowflake)
+  href: api/SnowflakeID.Snowflake.html#SnowflakeID_Snowflake_CompareTo_SnowflakeID_Snowflake_
+  commentId: M:SnowflakeID.Snowflake.CompareTo(SnowflakeID.Snowflake)
+  fullName: SnowflakeID.Snowflake.CompareTo(SnowflakeID.Snowflake)
+  nameWithType: Snowflake.CompareTo(Snowflake)
+- uid: SnowflakeID.Snowflake.CompareTo(System.Object)
+  name: CompareTo(object)
+  href: api/SnowflakeID.Snowflake.html#SnowflakeID_Snowflake_CompareTo_System_Object_
+  commentId: M:SnowflakeID.Snowflake.CompareTo(System.Object)
+  name.vb: CompareTo(Object)
+  fullName: SnowflakeID.Snowflake.CompareTo(object)
+  fullName.vb: SnowflakeID.Snowflake.CompareTo(Object)
+  nameWithType: Snowflake.CompareTo(object)
+  nameWithType.vb: Snowflake.CompareTo(Object)
+- uid: SnowflakeID.Snowflake.CompareTo*
+  name: CompareTo
+  href: api/SnowflakeID.Snowflake.html#SnowflakeID_Snowflake_CompareTo_
+  commentId: Overload:SnowflakeID.Snowflake.CompareTo
+  isSpec: "True"
+  fullName: SnowflakeID.Snowflake.CompareTo
+  nameWithType: Snowflake.CompareTo
+- uid: SnowflakeID.Snowflake.Epoch
+  name: Epoch
+  href: api/SnowflakeID.Snowflake.html#SnowflakeID_Snowflake_Epoch
+  commentId: P:SnowflakeID.Snowflake.Epoch
+  fullName: SnowflakeID.Snowflake.Epoch
+  nameWithType: Snowflake.Epoch
+- uid: SnowflakeID.Snowflake.Epoch*
+  name: Epoch
+  href: api/SnowflakeID.Snowflake.html#SnowflakeID_Snowflake_Epoch_
+  commentId: Overload:SnowflakeID.Snowflake.Epoch
+  isSpec: "True"
+  fullName: SnowflakeID.Snowflake.Epoch
+  nameWithType: Snowflake.Epoch
+- uid: SnowflakeID.Snowflake.Equals(SnowflakeID.Snowflake)
+  name: Equals(Snowflake)
+  href: api/SnowflakeID.Snowflake.html#SnowflakeID_Snowflake_Equals_SnowflakeID_Snowflake_
+  commentId: M:SnowflakeID.Snowflake.Equals(SnowflakeID.Snowflake)
+  fullName: SnowflakeID.Snowflake.Equals(SnowflakeID.Snowflake)
+  nameWithType: Snowflake.Equals(Snowflake)
+- uid: SnowflakeID.Snowflake.Equals(System.Object)
+  name: Equals(object)
+  href: api/SnowflakeID.Snowflake.html#SnowflakeID_Snowflake_Equals_System_Object_
+  commentId: M:SnowflakeID.Snowflake.Equals(System.Object)
+  name.vb: Equals(Object)
+  fullName: SnowflakeID.Snowflake.Equals(object)
+  fullName.vb: SnowflakeID.Snowflake.Equals(Object)
+  nameWithType: Snowflake.Equals(object)
+  nameWithType.vb: Snowflake.Equals(Object)
+- uid: SnowflakeID.Snowflake.Equals*
+  name: Equals
+  href: api/SnowflakeID.Snowflake.html#SnowflakeID_Snowflake_Equals_
+  commentId: Overload:SnowflakeID.Snowflake.Equals
+  isSpec: "True"
+  fullName: SnowflakeID.Snowflake.Equals
+  nameWithType: Snowflake.Equals
+- uid: SnowflakeID.Snowflake.FromString(System.String)
+  name: FromString(string)
+  href: api/SnowflakeID.Snowflake.html#SnowflakeID_Snowflake_FromString_System_String_
+  commentId: M:SnowflakeID.Snowflake.FromString(System.String)
+  name.vb: FromString(String)
+  fullName: SnowflakeID.Snowflake.FromString(string)
+  fullName.vb: SnowflakeID.Snowflake.FromString(String)
+  nameWithType: Snowflake.FromString(string)
+  nameWithType.vb: Snowflake.FromString(String)
+- uid: SnowflakeID.Snowflake.FromString*
+  name: FromString
+  href: api/SnowflakeID.Snowflake.html#SnowflakeID_Snowflake_FromString_
+  commentId: Overload:SnowflakeID.Snowflake.FromString
+  isSpec: "True"
+  fullName: SnowflakeID.Snowflake.FromString
+  nameWithType: Snowflake.FromString
+- uid: SnowflakeID.Snowflake.FromUInt64(System.UInt64)
+  name: FromUInt64(ulong)
+  href: api/SnowflakeID.Snowflake.html#SnowflakeID_Snowflake_FromUInt64_System_UInt64_
+  commentId: M:SnowflakeID.Snowflake.FromUInt64(System.UInt64)
+  name.vb: FromUInt64(ULong)
+  fullName: SnowflakeID.Snowflake.FromUInt64(ulong)
+  fullName.vb: SnowflakeID.Snowflake.FromUInt64(ULong)
+  nameWithType: Snowflake.FromUInt64(ulong)
+  nameWithType.vb: Snowflake.FromUInt64(ULong)
+- uid: SnowflakeID.Snowflake.FromUInt64*
+  name: FromUInt64
+  href: api/SnowflakeID.Snowflake.html#SnowflakeID_Snowflake_FromUInt64_
+  commentId: Overload:SnowflakeID.Snowflake.FromUInt64
+  isSpec: "True"
+  fullName: SnowflakeID.Snowflake.FromUInt64
+  nameWithType: Snowflake.FromUInt64
+- uid: SnowflakeID.Snowflake.GetHashCode
+  name: GetHashCode()
+  href: api/SnowflakeID.Snowflake.html#SnowflakeID_Snowflake_GetHashCode
+  commentId: M:SnowflakeID.Snowflake.GetHashCode
+  fullName: SnowflakeID.Snowflake.GetHashCode()
+  nameWithType: Snowflake.GetHashCode()
+- uid: SnowflakeID.Snowflake.GetHashCode*
+  name: GetHashCode
+  href: api/SnowflakeID.Snowflake.html#SnowflakeID_Snowflake_GetHashCode_
+  commentId: Overload:SnowflakeID.Snowflake.GetHashCode
+  isSpec: "True"
+  fullName: SnowflakeID.Snowflake.GetHashCode
+  nameWithType: Snowflake.GetHashCode
+- uid: SnowflakeID.Snowflake.Id
+  name: Id
+  href: api/SnowflakeID.Snowflake.html#SnowflakeID_Snowflake_Id
+  commentId: P:SnowflakeID.Snowflake.Id
+  fullName: SnowflakeID.Snowflake.Id
+  nameWithType: Snowflake.Id
+- uid: SnowflakeID.Snowflake.Id*
+  name: Id
+  href: api/SnowflakeID.Snowflake.html#SnowflakeID_Snowflake_Id_
+  commentId: Overload:SnowflakeID.Snowflake.Id
+  isSpec: "True"
+  fullName: SnowflakeID.Snowflake.Id
+  nameWithType: Snowflake.Id
+- uid: SnowflakeID.Snowflake.MachineId
+  name: MachineId
+  href: api/SnowflakeID.Snowflake.html#SnowflakeID_Snowflake_MachineId
+  commentId: P:SnowflakeID.Snowflake.MachineId
+  fullName: SnowflakeID.Snowflake.MachineId
+  nameWithType: Snowflake.MachineId
+- uid: SnowflakeID.Snowflake.MachineId*
+  name: MachineId
+  href: api/SnowflakeID.Snowflake.html#SnowflakeID_Snowflake_MachineId_
+  commentId: Overload:SnowflakeID.Snowflake.MachineId
+  isSpec: "True"
+  fullName: SnowflakeID.Snowflake.MachineId
+  nameWithType: Snowflake.MachineId
+- uid: SnowflakeID.Snowflake.MachineIdInt32
+  name: MachineIdInt32
+  href: api/SnowflakeID.Snowflake.html#SnowflakeID_Snowflake_MachineIdInt32
+  commentId: P:SnowflakeID.Snowflake.MachineIdInt32
+  fullName: SnowflakeID.Snowflake.MachineIdInt32
+  nameWithType: Snowflake.MachineIdInt32
+- uid: SnowflakeID.Snowflake.MachineIdInt32*
+  name: MachineIdInt32
+  href: api/SnowflakeID.Snowflake.html#SnowflakeID_Snowflake_MachineIdInt32_
+  commentId: Overload:SnowflakeID.Snowflake.MachineIdInt32
+  isSpec: "True"
+  fullName: SnowflakeID.Snowflake.MachineIdInt32
+  nameWithType: Snowflake.MachineIdInt32
+- uid: SnowflakeID.Snowflake.MaxMachineId
+  name: MaxMachineId
+  href: api/SnowflakeID.Snowflake.html#SnowflakeID_Snowflake_MaxMachineId
+  commentId: F:SnowflakeID.Snowflake.MaxMachineId
+  fullName: SnowflakeID.Snowflake.MaxMachineId
+  nameWithType: Snowflake.MaxMachineId
+- uid: SnowflakeID.Snowflake.MaxSequence
+  name: MaxSequence
+  href: api/SnowflakeID.Snowflake.html#SnowflakeID_Snowflake_MaxSequence
+  commentId: F:SnowflakeID.Snowflake.MaxSequence
+  fullName: SnowflakeID.Snowflake.MaxSequence
+  nameWithType: Snowflake.MaxSequence
+- uid: SnowflakeID.Snowflake.NumberOfDigits
+  name: NumberOfDigits
+  href: api/SnowflakeID.Snowflake.html#SnowflakeID_Snowflake_NumberOfDigits
+  commentId: F:SnowflakeID.Snowflake.NumberOfDigits
+  fullName: SnowflakeID.Snowflake.NumberOfDigits
+  nameWithType: Snowflake.NumberOfDigits
+- uid: SnowflakeID.Snowflake.Parse(System.String)
+  name: Parse(string)
+  href: api/SnowflakeID.Snowflake.html#SnowflakeID_Snowflake_Parse_System_String_
+  commentId: M:SnowflakeID.Snowflake.Parse(System.String)
+  name.vb: Parse(String)
+  fullName: SnowflakeID.Snowflake.Parse(string)
+  fullName.vb: SnowflakeID.Snowflake.Parse(String)
+  nameWithType: Snowflake.Parse(string)
+  nameWithType.vb: Snowflake.Parse(String)
+- uid: SnowflakeID.Snowflake.Parse(System.String,System.DateTime)
+  name: Parse(string, DateTime)
+  href: api/SnowflakeID.Snowflake.html#SnowflakeID_Snowflake_Parse_System_String_System_DateTime_
+  commentId: M:SnowflakeID.Snowflake.Parse(System.String,System.DateTime)
+  name.vb: Parse(String, Date)
+  fullName: SnowflakeID.Snowflake.Parse(string, System.DateTime)
+  fullName.vb: SnowflakeID.Snowflake.Parse(String, Date)
+  nameWithType: Snowflake.Parse(string, DateTime)
+  nameWithType.vb: Snowflake.Parse(String, Date)
+- uid: SnowflakeID.Snowflake.Parse(System.UInt64)
+  name: Parse(ulong)
+  href: api/SnowflakeID.Snowflake.html#SnowflakeID_Snowflake_Parse_System_UInt64_
+  commentId: M:SnowflakeID.Snowflake.Parse(System.UInt64)
+  name.vb: Parse(ULong)
+  fullName: SnowflakeID.Snowflake.Parse(ulong)
+  fullName.vb: SnowflakeID.Snowflake.Parse(ULong)
+  nameWithType: Snowflake.Parse(ulong)
+  nameWithType.vb: Snowflake.Parse(ULong)
+- uid: SnowflakeID.Snowflake.Parse(System.UInt64,System.DateTime)
+  name: Parse(ulong, DateTime)
+  href: api/SnowflakeID.Snowflake.html#SnowflakeID_Snowflake_Parse_System_UInt64_System_DateTime_
+  commentId: M:SnowflakeID.Snowflake.Parse(System.UInt64,System.DateTime)
+  name.vb: Parse(ULong, Date)
+  fullName: SnowflakeID.Snowflake.Parse(ulong, System.DateTime)
+  fullName.vb: SnowflakeID.Snowflake.Parse(ULong, Date)
+  nameWithType: Snowflake.Parse(ulong, DateTime)
+  nameWithType.vb: Snowflake.Parse(ULong, Date)
+- uid: SnowflakeID.Snowflake.Parse*
+  name: Parse
+  href: api/SnowflakeID.Snowflake.html#SnowflakeID_Snowflake_Parse_
+  commentId: Overload:SnowflakeID.Snowflake.Parse
+  isSpec: "True"
+  fullName: SnowflakeID.Snowflake.Parse
+  nameWithType: Snowflake.Parse
+- uid: SnowflakeID.Snowflake.RebaseEpoch(System.DateTime)
+  name: RebaseEpoch(DateTime)
+  href: api/SnowflakeID.Snowflake.html#SnowflakeID_Snowflake_RebaseEpoch_System_DateTime_
+  commentId: M:SnowflakeID.Snowflake.RebaseEpoch(System.DateTime)
+  name.vb: RebaseEpoch(Date)
+  fullName: SnowflakeID.Snowflake.RebaseEpoch(System.DateTime)
+  fullName.vb: SnowflakeID.Snowflake.RebaseEpoch(Date)
+  nameWithType: Snowflake.RebaseEpoch(DateTime)
+  nameWithType.vb: Snowflake.RebaseEpoch(Date)
+- uid: SnowflakeID.Snowflake.RebaseEpoch*
+  name: RebaseEpoch
+  href: api/SnowflakeID.Snowflake.html#SnowflakeID_Snowflake_RebaseEpoch_
+  commentId: Overload:SnowflakeID.Snowflake.RebaseEpoch
+  isSpec: "True"
+  fullName: SnowflakeID.Snowflake.RebaseEpoch
+  nameWithType: Snowflake.RebaseEpoch
+- uid: SnowflakeID.Snowflake.Sequence
+  name: Sequence
+  href: api/SnowflakeID.Snowflake.html#SnowflakeID_Snowflake_Sequence
+  commentId: P:SnowflakeID.Snowflake.Sequence
+  fullName: SnowflakeID.Snowflake.Sequence
+  nameWithType: Snowflake.Sequence
+- uid: SnowflakeID.Snowflake.Sequence*
+  name: Sequence
+  href: api/SnowflakeID.Snowflake.html#SnowflakeID_Snowflake_Sequence_
+  commentId: Overload:SnowflakeID.Snowflake.Sequence
+  isSpec: "True"
+  fullName: SnowflakeID.Snowflake.Sequence
+  nameWithType: Snowflake.Sequence
+- uid: SnowflakeID.Snowflake.SequenceInt32
+  name: SequenceInt32
+  href: api/SnowflakeID.Snowflake.html#SnowflakeID_Snowflake_SequenceInt32
+  commentId: P:SnowflakeID.Snowflake.SequenceInt32
+  fullName: SnowflakeID.Snowflake.SequenceInt32
+  nameWithType: Snowflake.SequenceInt32
+- uid: SnowflakeID.Snowflake.SequenceInt32*
+  name: SequenceInt32
+  href: api/SnowflakeID.Snowflake.html#SnowflakeID_Snowflake_SequenceInt32_
+  commentId: Overload:SnowflakeID.Snowflake.SequenceInt32
+  isSpec: "True"
+  fullName: SnowflakeID.Snowflake.SequenceInt32
+  nameWithType: Snowflake.SequenceInt32
+- uid: SnowflakeID.Snowflake.Timestamp
+  name: Timestamp
+  href: api/SnowflakeID.Snowflake.html#SnowflakeID_Snowflake_Timestamp
+  commentId: P:SnowflakeID.Snowflake.Timestamp
+  fullName: SnowflakeID.Snowflake.Timestamp
+  nameWithType: Snowflake.Timestamp
+- uid: SnowflakeID.Snowflake.Timestamp*
+  name: Timestamp
+  href: api/SnowflakeID.Snowflake.html#SnowflakeID_Snowflake_Timestamp_
+  commentId: Overload:SnowflakeID.Snowflake.Timestamp
+  isSpec: "True"
+  fullName: SnowflakeID.Snowflake.Timestamp
+  nameWithType: Snowflake.Timestamp
+- uid: SnowflakeID.Snowflake.TimestampInt64
+  name: TimestampInt64
+  href: api/SnowflakeID.Snowflake.html#SnowflakeID_Snowflake_TimestampInt64
+  commentId: P:SnowflakeID.Snowflake.TimestampInt64
+  fullName: SnowflakeID.Snowflake.TimestampInt64
+  nameWithType: Snowflake.TimestampInt64
+- uid: SnowflakeID.Snowflake.TimestampInt64*
+  name: TimestampInt64
+  href: api/SnowflakeID.Snowflake.html#SnowflakeID_Snowflake_TimestampInt64_
+  commentId: Overload:SnowflakeID.Snowflake.TimestampInt64
+  isSpec: "True"
+  fullName: SnowflakeID.Snowflake.TimestampInt64
+  nameWithType: Snowflake.TimestampInt64
+- uid: SnowflakeID.Snowflake.ToString
+  name: ToString()
+  href: api/SnowflakeID.Snowflake.html#SnowflakeID_Snowflake_ToString
+  commentId: M:SnowflakeID.Snowflake.ToString
+  fullName: SnowflakeID.Snowflake.ToString()
+  nameWithType: Snowflake.ToString()
+- uid: SnowflakeID.Snowflake.ToString*
+  name: ToString
+  href: api/SnowflakeID.Snowflake.html#SnowflakeID_Snowflake_ToString_
+  commentId: Overload:SnowflakeID.Snowflake.ToString
+  isSpec: "True"
+  fullName: SnowflakeID.Snowflake.ToString
+  nameWithType: Snowflake.ToString
+- uid: SnowflakeID.Snowflake.ToUInt64
+  name: ToUInt64()
+  href: api/SnowflakeID.Snowflake.html#SnowflakeID_Snowflake_ToUInt64
+  commentId: M:SnowflakeID.Snowflake.ToUInt64
+  fullName: SnowflakeID.Snowflake.ToUInt64()
+  nameWithType: Snowflake.ToUInt64()
+- uid: SnowflakeID.Snowflake.ToUInt64*
+  name: ToUInt64
+  href: api/SnowflakeID.Snowflake.html#SnowflakeID_Snowflake_ToUInt64_
+  commentId: Overload:SnowflakeID.Snowflake.ToUInt64
+  isSpec: "True"
+  fullName: SnowflakeID.Snowflake.ToUInt64
+  nameWithType: Snowflake.ToUInt64
+- uid: SnowflakeID.Snowflake.UtcDateTime
+  name: UtcDateTime
+  href: api/SnowflakeID.Snowflake.html#SnowflakeID_Snowflake_UtcDateTime
+  commentId: P:SnowflakeID.Snowflake.UtcDateTime
+  fullName: SnowflakeID.Snowflake.UtcDateTime
+  nameWithType: Snowflake.UtcDateTime
+- uid: SnowflakeID.Snowflake.UtcDateTime*
+  name: UtcDateTime
+  href: api/SnowflakeID.Snowflake.html#SnowflakeID_Snowflake_UtcDateTime_
+  commentId: Overload:SnowflakeID.Snowflake.UtcDateTime
+  isSpec: "True"
+  fullName: SnowflakeID.Snowflake.UtcDateTime
+  nameWithType: Snowflake.UtcDateTime
+- uid: SnowflakeID.Snowflake.op_Equality(SnowflakeID.Snowflake,SnowflakeID.Snowflake)
+  name: operator ==(Snowflake, Snowflake)
+  href: api/SnowflakeID.Snowflake.html#SnowflakeID_Snowflake_op_Equality_SnowflakeID_Snowflake_SnowflakeID_Snowflake_
+  commentId: M:SnowflakeID.Snowflake.op_Equality(SnowflakeID.Snowflake,SnowflakeID.Snowflake)
+  name.vb: =(Snowflake, Snowflake)
+  fullName: SnowflakeID.Snowflake.operator ==(SnowflakeID.Snowflake, SnowflakeID.Snowflake)
+  fullName.vb: SnowflakeID.Snowflake.=(SnowflakeID.Snowflake, SnowflakeID.Snowflake)
+  nameWithType: Snowflake.operator ==(Snowflake, Snowflake)
+  nameWithType.vb: Snowflake.=(Snowflake, Snowflake)
+- uid: SnowflakeID.Snowflake.op_Equality*
+  name: operator ==
+  href: api/SnowflakeID.Snowflake.html#SnowflakeID_Snowflake_op_Equality_
+  commentId: Overload:SnowflakeID.Snowflake.op_Equality
+  isSpec: "True"
+  name.vb: =
+  fullName: SnowflakeID.Snowflake.operator ==
+  fullName.vb: SnowflakeID.Snowflake.=
+  nameWithType: Snowflake.operator ==
+  nameWithType.vb: Snowflake.=
+- uid: SnowflakeID.Snowflake.op_Explicit(System.String)~SnowflakeID.Snowflake
+  name: explicit operator Snowflake(string)
+  href: api/SnowflakeID.Snowflake.html#SnowflakeID_Snowflake_op_Explicit_System_String__SnowflakeID_Snowflake
+  commentId: M:SnowflakeID.Snowflake.op_Explicit(System.String)~SnowflakeID.Snowflake
+  name.vb: CType(String)
+  fullName: SnowflakeID.Snowflake.explicit operator SnowflakeID.Snowflake(string)
+  fullName.vb: SnowflakeID.Snowflake.CType(String)
+  nameWithType: Snowflake.explicit operator Snowflake(string)
+  nameWithType.vb: Snowflake.CType(String)
+- uid: SnowflakeID.Snowflake.op_Explicit(System.UInt64)~SnowflakeID.Snowflake
+  name: explicit operator Snowflake(ulong)
+  href: api/SnowflakeID.Snowflake.html#SnowflakeID_Snowflake_op_Explicit_System_UInt64__SnowflakeID_Snowflake
+  commentId: M:SnowflakeID.Snowflake.op_Explicit(System.UInt64)~SnowflakeID.Snowflake
+  name.vb: CType(ULong)
+  fullName: SnowflakeID.Snowflake.explicit operator SnowflakeID.Snowflake(ulong)
+  fullName.vb: SnowflakeID.Snowflake.CType(ULong)
+  nameWithType: Snowflake.explicit operator Snowflake(ulong)
+  nameWithType.vb: Snowflake.CType(ULong)
+- uid: SnowflakeID.Snowflake.op_Explicit*
+  name: explicit operator
+  href: api/SnowflakeID.Snowflake.html#SnowflakeID_Snowflake_op_Explicit_
+  commentId: Overload:SnowflakeID.Snowflake.op_Explicit
+  isSpec: "True"
+  name.vb: CType
+  fullName: SnowflakeID.Snowflake.explicit operator
+  fullName.vb: SnowflakeID.Snowflake.CType
+  nameWithType: Snowflake.explicit operator
+  nameWithType.vb: Snowflake.CType
+- uid: SnowflakeID.Snowflake.op_GreaterThan(SnowflakeID.Snowflake,SnowflakeID.Snowflake)
+  name: operator >(Snowflake, Snowflake)
+  href: api/SnowflakeID.Snowflake.html#SnowflakeID_Snowflake_op_GreaterThan_SnowflakeID_Snowflake_SnowflakeID_Snowflake_
+  commentId: M:SnowflakeID.Snowflake.op_GreaterThan(SnowflakeID.Snowflake,SnowflakeID.Snowflake)
+  name.vb: '>(Snowflake, Snowflake)'
+  fullName: SnowflakeID.Snowflake.operator >(SnowflakeID.Snowflake, SnowflakeID.Snowflake)
+  fullName.vb: SnowflakeID.Snowflake.>(SnowflakeID.Snowflake, SnowflakeID.Snowflake)
+  nameWithType: Snowflake.operator >(Snowflake, Snowflake)
+  nameWithType.vb: Snowflake.>(Snowflake, Snowflake)
+- uid: SnowflakeID.Snowflake.op_GreaterThan*
+  name: operator >
+  href: api/SnowflakeID.Snowflake.html#SnowflakeID_Snowflake_op_GreaterThan_
+  commentId: Overload:SnowflakeID.Snowflake.op_GreaterThan
+  isSpec: "True"
+  name.vb: '>'
+  fullName: SnowflakeID.Snowflake.operator >
+  fullName.vb: SnowflakeID.Snowflake.>
+  nameWithType: Snowflake.operator >
+  nameWithType.vb: Snowflake.>
+- uid: SnowflakeID.Snowflake.op_GreaterThanOrEqual(SnowflakeID.Snowflake,SnowflakeID.Snowflake)
+  name: operator >=(Snowflake, Snowflake)
+  href: api/SnowflakeID.Snowflake.html#SnowflakeID_Snowflake_op_GreaterThanOrEqual_SnowflakeID_Snowflake_SnowflakeID_Snowflake_
+  commentId: M:SnowflakeID.Snowflake.op_GreaterThanOrEqual(SnowflakeID.Snowflake,SnowflakeID.Snowflake)
+  name.vb: '>=(Snowflake, Snowflake)'
+  fullName: SnowflakeID.Snowflake.operator >=(SnowflakeID.Snowflake, SnowflakeID.Snowflake)
+  fullName.vb: SnowflakeID.Snowflake.>=(SnowflakeID.Snowflake, SnowflakeID.Snowflake)
+  nameWithType: Snowflake.operator >=(Snowflake, Snowflake)
+  nameWithType.vb: Snowflake.>=(Snowflake, Snowflake)
+- uid: SnowflakeID.Snowflake.op_GreaterThanOrEqual*
+  name: operator >=
+  href: api/SnowflakeID.Snowflake.html#SnowflakeID_Snowflake_op_GreaterThanOrEqual_
+  commentId: Overload:SnowflakeID.Snowflake.op_GreaterThanOrEqual
+  isSpec: "True"
+  name.vb: '>='
+  fullName: SnowflakeID.Snowflake.operator >=
+  fullName.vb: SnowflakeID.Snowflake.>=
+  nameWithType: Snowflake.operator >=
+  nameWithType.vb: Snowflake.>=
+- uid: SnowflakeID.Snowflake.op_Implicit(SnowflakeID.Snowflake)~System.String
+  name: implicit operator string(Snowflake)
+  href: api/SnowflakeID.Snowflake.html#SnowflakeID_Snowflake_op_Implicit_SnowflakeID_Snowflake__System_String
+  commentId: M:SnowflakeID.Snowflake.op_Implicit(SnowflakeID.Snowflake)~System.String
+  name.vb: CType(Snowflake)
+  fullName: SnowflakeID.Snowflake.implicit operator string(SnowflakeID.Snowflake)
+  fullName.vb: SnowflakeID.Snowflake.CType(SnowflakeID.Snowflake)
+  nameWithType: Snowflake.implicit operator string(Snowflake)
+  nameWithType.vb: Snowflake.CType(Snowflake)
+- uid: SnowflakeID.Snowflake.op_Implicit(SnowflakeID.Snowflake)~System.UInt64
+  name: implicit operator ulong(Snowflake)
+  href: api/SnowflakeID.Snowflake.html#SnowflakeID_Snowflake_op_Implicit_SnowflakeID_Snowflake__System_UInt64
+  commentId: M:SnowflakeID.Snowflake.op_Implicit(SnowflakeID.Snowflake)~System.UInt64
+  name.vb: CType(Snowflake)
+  fullName: SnowflakeID.Snowflake.implicit operator ulong(SnowflakeID.Snowflake)
+  fullName.vb: SnowflakeID.Snowflake.CType(SnowflakeID.Snowflake)
+  nameWithType: Snowflake.implicit operator ulong(Snowflake)
+  nameWithType.vb: Snowflake.CType(Snowflake)
+- uid: SnowflakeID.Snowflake.op_Implicit*
+  name: implicit operator
+  href: api/SnowflakeID.Snowflake.html#SnowflakeID_Snowflake_op_Implicit_
+  commentId: Overload:SnowflakeID.Snowflake.op_Implicit
+  isSpec: "True"
+  name.vb: CType
+  fullName: SnowflakeID.Snowflake.implicit operator
+  fullName.vb: SnowflakeID.Snowflake.CType
+  nameWithType: Snowflake.implicit operator
+  nameWithType.vb: Snowflake.CType
+- uid: SnowflakeID.Snowflake.op_Inequality(SnowflakeID.Snowflake,SnowflakeID.Snowflake)
+  name: operator !=(Snowflake, Snowflake)
+  href: api/SnowflakeID.Snowflake.html#SnowflakeID_Snowflake_op_Inequality_SnowflakeID_Snowflake_SnowflakeID_Snowflake_
+  commentId: M:SnowflakeID.Snowflake.op_Inequality(SnowflakeID.Snowflake,SnowflakeID.Snowflake)
+  name.vb: <>(Snowflake, Snowflake)
+  fullName: SnowflakeID.Snowflake.operator !=(SnowflakeID.Snowflake, SnowflakeID.Snowflake)
+  fullName.vb: SnowflakeID.Snowflake.<>(SnowflakeID.Snowflake, SnowflakeID.Snowflake)
+  nameWithType: Snowflake.operator !=(Snowflake, Snowflake)
+  nameWithType.vb: Snowflake.<>(Snowflake, Snowflake)
+- uid: SnowflakeID.Snowflake.op_Inequality*
+  name: operator !=
+  href: api/SnowflakeID.Snowflake.html#SnowflakeID_Snowflake_op_Inequality_
+  commentId: Overload:SnowflakeID.Snowflake.op_Inequality
+  isSpec: "True"
+  name.vb: <>
+  fullName: SnowflakeID.Snowflake.operator !=
+  fullName.vb: SnowflakeID.Snowflake.<>
+  nameWithType: Snowflake.operator !=
+  nameWithType.vb: Snowflake.<>
+- uid: SnowflakeID.Snowflake.op_LessThan(SnowflakeID.Snowflake,SnowflakeID.Snowflake)
+  name: operator <(Snowflake, Snowflake)
+  href: api/SnowflakeID.Snowflake.html#SnowflakeID_Snowflake_op_LessThan_SnowflakeID_Snowflake_SnowflakeID_Snowflake_
+  commentId: M:SnowflakeID.Snowflake.op_LessThan(SnowflakeID.Snowflake,SnowflakeID.Snowflake)
+  name.vb: <(Snowflake, Snowflake)
+  fullName: SnowflakeID.Snowflake.operator <(SnowflakeID.Snowflake, SnowflakeID.Snowflake)
+  fullName.vb: SnowflakeID.Snowflake.<(SnowflakeID.Snowflake, SnowflakeID.Snowflake)
+  nameWithType: Snowflake.operator <(Snowflake, Snowflake)
+  nameWithType.vb: Snowflake.<(Snowflake, Snowflake)
+- uid: SnowflakeID.Snowflake.op_LessThan*
+  name: operator <
+  href: api/SnowflakeID.Snowflake.html#SnowflakeID_Snowflake_op_LessThan_
+  commentId: Overload:SnowflakeID.Snowflake.op_LessThan
+  isSpec: "True"
+  name.vb: <
+  fullName: SnowflakeID.Snowflake.operator <
+  fullName.vb: SnowflakeID.Snowflake.<
+  nameWithType: Snowflake.operator <
+  nameWithType.vb: Snowflake.<
+- uid: SnowflakeID.Snowflake.op_LessThanOrEqual(SnowflakeID.Snowflake,SnowflakeID.Snowflake)
+  name: operator <=(Snowflake, Snowflake)
+  href: api/SnowflakeID.Snowflake.html#SnowflakeID_Snowflake_op_LessThanOrEqual_SnowflakeID_Snowflake_SnowflakeID_Snowflake_
+  commentId: M:SnowflakeID.Snowflake.op_LessThanOrEqual(SnowflakeID.Snowflake,SnowflakeID.Snowflake)
+  name.vb: <=(Snowflake, Snowflake)
+  fullName: SnowflakeID.Snowflake.operator <=(SnowflakeID.Snowflake, SnowflakeID.Snowflake)
+  fullName.vb: SnowflakeID.Snowflake.<=(SnowflakeID.Snowflake, SnowflakeID.Snowflake)
+  nameWithType: Snowflake.operator <=(Snowflake, Snowflake)
+  nameWithType.vb: Snowflake.<=(Snowflake, Snowflake)
+- uid: SnowflakeID.Snowflake.op_LessThanOrEqual*
+  name: operator <=
+  href: api/SnowflakeID.Snowflake.html#SnowflakeID_Snowflake_op_LessThanOrEqual_
+  commentId: Overload:SnowflakeID.Snowflake.op_LessThanOrEqual
+  isSpec: "True"
+  name.vb: <=
+  fullName: SnowflakeID.Snowflake.operator <=
+  fullName.vb: SnowflakeID.Snowflake.<=
+  nameWithType: Snowflake.operator <=
+  nameWithType.vb: Snowflake.<=
+- uid: SnowflakeID.SnowflakeIDGenerator
+  name: SnowflakeIDGenerator
+  href: api/SnowflakeID.SnowflakeIDGenerator.html
+  commentId: T:SnowflakeID.SnowflakeIDGenerator
+  fullName: SnowflakeID.SnowflakeIDGenerator
+  nameWithType: SnowflakeIDGenerator
+- uid: SnowflakeID.SnowflakeIDGenerator.#ctor(System.Int32)
+  name: SnowflakeIDGenerator(int)
+  href: api/SnowflakeID.SnowflakeIDGenerator.html#SnowflakeID_SnowflakeIDGenerator__ctor_System_Int32_
+  commentId: M:SnowflakeID.SnowflakeIDGenerator.#ctor(System.Int32)
+  name.vb: New(Integer)
+  fullName: SnowflakeID.SnowflakeIDGenerator.SnowflakeIDGenerator(int)
+  fullName.vb: SnowflakeID.SnowflakeIDGenerator.New(Integer)
+  nameWithType: SnowflakeIDGenerator.SnowflakeIDGenerator(int)
+  nameWithType.vb: SnowflakeIDGenerator.New(Integer)
+- uid: SnowflakeID.SnowflakeIDGenerator.#ctor(System.Int32,System.DateTime)
+  name: SnowflakeIDGenerator(int, DateTime)
+  href: api/SnowflakeID.SnowflakeIDGenerator.html#SnowflakeID_SnowflakeIDGenerator__ctor_System_Int32_System_DateTime_
+  commentId: M:SnowflakeID.SnowflakeIDGenerator.#ctor(System.Int32,System.DateTime)
+  name.vb: New(Integer, Date)
+  fullName: SnowflakeID.SnowflakeIDGenerator.SnowflakeIDGenerator(int, System.DateTime)
+  fullName.vb: SnowflakeID.SnowflakeIDGenerator.New(Integer, Date)
+  nameWithType: SnowflakeIDGenerator.SnowflakeIDGenerator(int, DateTime)
+  nameWithType.vb: SnowflakeIDGenerator.New(Integer, Date)
+- uid: SnowflakeID.SnowflakeIDGenerator.#ctor(System.UInt64)
+  name: SnowflakeIDGenerator(ulong)
+  href: api/SnowflakeID.SnowflakeIDGenerator.html#SnowflakeID_SnowflakeIDGenerator__ctor_System_UInt64_
+  commentId: M:SnowflakeID.SnowflakeIDGenerator.#ctor(System.UInt64)
+  name.vb: New(ULong)
+  fullName: SnowflakeID.SnowflakeIDGenerator.SnowflakeIDGenerator(ulong)
+  fullName.vb: SnowflakeID.SnowflakeIDGenerator.New(ULong)
+  nameWithType: SnowflakeIDGenerator.SnowflakeIDGenerator(ulong)
+  nameWithType.vb: SnowflakeIDGenerator.New(ULong)
+- uid: SnowflakeID.SnowflakeIDGenerator.#ctor(System.UInt64,System.DateTime)
+  name: SnowflakeIDGenerator(ulong, DateTime)
+  href: api/SnowflakeID.SnowflakeIDGenerator.html#SnowflakeID_SnowflakeIDGenerator__ctor_System_UInt64_System_DateTime_
+  commentId: M:SnowflakeID.SnowflakeIDGenerator.#ctor(System.UInt64,System.DateTime)
+  name.vb: New(ULong, Date)
+  fullName: SnowflakeID.SnowflakeIDGenerator.SnowflakeIDGenerator(ulong, System.DateTime)
+  fullName.vb: SnowflakeID.SnowflakeIDGenerator.New(ULong, Date)
+  nameWithType: SnowflakeIDGenerator.SnowflakeIDGenerator(ulong, DateTime)
+  nameWithType.vb: SnowflakeIDGenerator.New(ULong, Date)
+- uid: SnowflakeID.SnowflakeIDGenerator.#ctor*
+  name: SnowflakeIDGenerator
+  href: api/SnowflakeID.SnowflakeIDGenerator.html#SnowflakeID_SnowflakeIDGenerator__ctor_
+  commentId: Overload:SnowflakeID.SnowflakeIDGenerator.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: SnowflakeID.SnowflakeIDGenerator.SnowflakeIDGenerator
+  fullName.vb: SnowflakeID.SnowflakeIDGenerator.New
+  nameWithType: SnowflakeIDGenerator.SnowflakeIDGenerator
+  nameWithType.vb: SnowflakeIDGenerator.New
+- uid: SnowflakeID.SnowflakeIDGenerator.ConfiguredEpoch
+  name: ConfiguredEpoch
+  href: api/SnowflakeID.SnowflakeIDGenerator.html#SnowflakeID_SnowflakeIDGenerator_ConfiguredEpoch
+  commentId: P:SnowflakeID.SnowflakeIDGenerator.ConfiguredEpoch
+  fullName: SnowflakeID.SnowflakeIDGenerator.ConfiguredEpoch
+  nameWithType: SnowflakeIDGenerator.ConfiguredEpoch
+- uid: SnowflakeID.SnowflakeIDGenerator.ConfiguredEpoch*
+  name: ConfiguredEpoch
+  href: api/SnowflakeID.SnowflakeIDGenerator.html#SnowflakeID_SnowflakeIDGenerator_ConfiguredEpoch_
+  commentId: Overload:SnowflakeID.SnowflakeIDGenerator.ConfiguredEpoch
+  isSpec: "True"
+  fullName: SnowflakeID.SnowflakeIDGenerator.ConfiguredEpoch
+  nameWithType: SnowflakeIDGenerator.ConfiguredEpoch
+- uid: SnowflakeID.SnowflakeIDGenerator.ConfiguredMachineId
+  name: ConfiguredMachineId
+  href: api/SnowflakeID.SnowflakeIDGenerator.html#SnowflakeID_SnowflakeIDGenerator_ConfiguredMachineId
+  commentId: P:SnowflakeID.SnowflakeIDGenerator.ConfiguredMachineId
+  fullName: SnowflakeID.SnowflakeIDGenerator.ConfiguredMachineId
+  nameWithType: SnowflakeIDGenerator.ConfiguredMachineId
+- uid: SnowflakeID.SnowflakeIDGenerator.ConfiguredMachineId*
+  name: ConfiguredMachineId
+  href: api/SnowflakeID.SnowflakeIDGenerator.html#SnowflakeID_SnowflakeIDGenerator_ConfiguredMachineId_
+  commentId: Overload:SnowflakeID.SnowflakeIDGenerator.ConfiguredMachineId
+  isSpec: "True"
+  fullName: SnowflakeID.SnowflakeIDGenerator.ConfiguredMachineId
+  nameWithType: SnowflakeIDGenerator.ConfiguredMachineId
+- uid: SnowflakeID.SnowflakeIDGenerator.GetCode
+  name: GetCode()
+  href: api/SnowflakeID.SnowflakeIDGenerator.html#SnowflakeID_SnowflakeIDGenerator_GetCode
+  commentId: M:SnowflakeID.SnowflakeIDGenerator.GetCode
+  fullName: SnowflakeID.SnowflakeIDGenerator.GetCode()
+  nameWithType: SnowflakeIDGenerator.GetCode()
+- uid: SnowflakeID.SnowflakeIDGenerator.GetCode(System.UInt64)
+  name: GetCode(ulong)
+  href: api/SnowflakeID.SnowflakeIDGenerator.html#SnowflakeID_SnowflakeIDGenerator_GetCode_System_UInt64_
+  commentId: M:SnowflakeID.SnowflakeIDGenerator.GetCode(System.UInt64)
+  name.vb: GetCode(ULong)
+  fullName: SnowflakeID.SnowflakeIDGenerator.GetCode(ulong)
+  fullName.vb: SnowflakeID.SnowflakeIDGenerator.GetCode(ULong)
+  nameWithType: SnowflakeIDGenerator.GetCode(ulong)
+  nameWithType.vb: SnowflakeIDGenerator.GetCode(ULong)
+- uid: SnowflakeID.SnowflakeIDGenerator.GetCode(System.UInt64,System.DateTime)
+  name: GetCode(ulong, DateTime)
+  href: api/SnowflakeID.SnowflakeIDGenerator.html#SnowflakeID_SnowflakeIDGenerator_GetCode_System_UInt64_System_DateTime_
+  commentId: M:SnowflakeID.SnowflakeIDGenerator.GetCode(System.UInt64,System.DateTime)
+  name.vb: GetCode(ULong, Date)
+  fullName: SnowflakeID.SnowflakeIDGenerator.GetCode(ulong, System.DateTime)
+  fullName.vb: SnowflakeID.SnowflakeIDGenerator.GetCode(ULong, Date)
+  nameWithType: SnowflakeIDGenerator.GetCode(ulong, DateTime)
+  nameWithType.vb: SnowflakeIDGenerator.GetCode(ULong, Date)
+- uid: SnowflakeID.SnowflakeIDGenerator.GetCode*
+  name: GetCode
+  href: api/SnowflakeID.SnowflakeIDGenerator.html#SnowflakeID_SnowflakeIDGenerator_GetCode_
+  commentId: Overload:SnowflakeID.SnowflakeIDGenerator.GetCode
+  isSpec: "True"
+  fullName: SnowflakeID.SnowflakeIDGenerator.GetCode
+  nameWithType: SnowflakeIDGenerator.GetCode
+- uid: SnowflakeID.SnowflakeIDGenerator.GetCodeString
+  name: GetCodeString()
+  href: api/SnowflakeID.SnowflakeIDGenerator.html#SnowflakeID_SnowflakeIDGenerator_GetCodeString
+  commentId: M:SnowflakeID.SnowflakeIDGenerator.GetCodeString
+  fullName: SnowflakeID.SnowflakeIDGenerator.GetCodeString()
+  nameWithType: SnowflakeIDGenerator.GetCodeString()
+- uid: SnowflakeID.SnowflakeIDGenerator.GetCodeString(System.Int32)
+  name: GetCodeString(int)
+  href: api/SnowflakeID.SnowflakeIDGenerator.html#SnowflakeID_SnowflakeIDGenerator_GetCodeString_System_Int32_
+  commentId: M:SnowflakeID.SnowflakeIDGenerator.GetCodeString(System.Int32)
+  name.vb: GetCodeString(Integer)
+  fullName: SnowflakeID.SnowflakeIDGenerator.GetCodeString(int)
+  fullName.vb: SnowflakeID.SnowflakeIDGenerator.GetCodeString(Integer)
+  nameWithType: SnowflakeIDGenerator.GetCodeString(int)
+  nameWithType.vb: SnowflakeIDGenerator.GetCodeString(Integer)
+- uid: SnowflakeID.SnowflakeIDGenerator.GetCodeString(System.Int32,System.DateTime)
+  name: GetCodeString(int, DateTime)
+  href: api/SnowflakeID.SnowflakeIDGenerator.html#SnowflakeID_SnowflakeIDGenerator_GetCodeString_System_Int32_System_DateTime_
+  commentId: M:SnowflakeID.SnowflakeIDGenerator.GetCodeString(System.Int32,System.DateTime)
+  name.vb: GetCodeString(Integer, Date)
+  fullName: SnowflakeID.SnowflakeIDGenerator.GetCodeString(int, System.DateTime)
+  fullName.vb: SnowflakeID.SnowflakeIDGenerator.GetCodeString(Integer, Date)
+  nameWithType: SnowflakeIDGenerator.GetCodeString(int, DateTime)
+  nameWithType.vb: SnowflakeIDGenerator.GetCodeString(Integer, Date)
+- uid: SnowflakeID.SnowflakeIDGenerator.GetCodeString(System.UInt64)
+  name: GetCodeString(ulong)
+  href: api/SnowflakeID.SnowflakeIDGenerator.html#SnowflakeID_SnowflakeIDGenerator_GetCodeString_System_UInt64_
+  commentId: M:SnowflakeID.SnowflakeIDGenerator.GetCodeString(System.UInt64)
+  name.vb: GetCodeString(ULong)
+  fullName: SnowflakeID.SnowflakeIDGenerator.GetCodeString(ulong)
+  fullName.vb: SnowflakeID.SnowflakeIDGenerator.GetCodeString(ULong)
+  nameWithType: SnowflakeIDGenerator.GetCodeString(ulong)
+  nameWithType.vb: SnowflakeIDGenerator.GetCodeString(ULong)
+- uid: SnowflakeID.SnowflakeIDGenerator.GetCodeString(System.UInt64,System.DateTime)
+  name: GetCodeString(ulong, DateTime)
+  href: api/SnowflakeID.SnowflakeIDGenerator.html#SnowflakeID_SnowflakeIDGenerator_GetCodeString_System_UInt64_System_DateTime_
+  commentId: M:SnowflakeID.SnowflakeIDGenerator.GetCodeString(System.UInt64,System.DateTime)
+  name.vb: GetCodeString(ULong, Date)
+  fullName: SnowflakeID.SnowflakeIDGenerator.GetCodeString(ulong, System.DateTime)
+  fullName.vb: SnowflakeID.SnowflakeIDGenerator.GetCodeString(ULong, Date)
+  nameWithType: SnowflakeIDGenerator.GetCodeString(ulong, DateTime)
+  nameWithType.vb: SnowflakeIDGenerator.GetCodeString(ULong, Date)
+- uid: SnowflakeID.SnowflakeIDGenerator.GetCodeString*
+  name: GetCodeString
+  href: api/SnowflakeID.SnowflakeIDGenerator.html#SnowflakeID_SnowflakeIDGenerator_GetCodeString_
+  commentId: Overload:SnowflakeID.SnowflakeIDGenerator.GetCodeString
+  isSpec: "True"
+  fullName: SnowflakeID.SnowflakeIDGenerator.GetCodeString
+  nameWithType: SnowflakeIDGenerator.GetCodeString
+- uid: SnowflakeID.SnowflakeIDGenerator.GetSnowflake
+  name: GetSnowflake()
+  href: api/SnowflakeID.SnowflakeIDGenerator.html#SnowflakeID_SnowflakeIDGenerator_GetSnowflake
+  commentId: M:SnowflakeID.SnowflakeIDGenerator.GetSnowflake
+  fullName: SnowflakeID.SnowflakeIDGenerator.GetSnowflake()
+  nameWithType: SnowflakeIDGenerator.GetSnowflake()
+- uid: SnowflakeID.SnowflakeIDGenerator.GetSnowflake(System.Int32)
+  name: GetSnowflake(int)
+  href: api/SnowflakeID.SnowflakeIDGenerator.html#SnowflakeID_SnowflakeIDGenerator_GetSnowflake_System_Int32_
+  commentId: M:SnowflakeID.SnowflakeIDGenerator.GetSnowflake(System.Int32)
+  name.vb: GetSnowflake(Integer)
+  fullName: SnowflakeID.SnowflakeIDGenerator.GetSnowflake(int)
+  fullName.vb: SnowflakeID.SnowflakeIDGenerator.GetSnowflake(Integer)
+  nameWithType: SnowflakeIDGenerator.GetSnowflake(int)
+  nameWithType.vb: SnowflakeIDGenerator.GetSnowflake(Integer)
+- uid: SnowflakeID.SnowflakeIDGenerator.GetSnowflake(System.Int32,System.DateTime)
+  name: GetSnowflake(int, DateTime)
+  href: api/SnowflakeID.SnowflakeIDGenerator.html#SnowflakeID_SnowflakeIDGenerator_GetSnowflake_System_Int32_System_DateTime_
+  commentId: M:SnowflakeID.SnowflakeIDGenerator.GetSnowflake(System.Int32,System.DateTime)
+  name.vb: GetSnowflake(Integer, Date)
+  fullName: SnowflakeID.SnowflakeIDGenerator.GetSnowflake(int, System.DateTime)
+  fullName.vb: SnowflakeID.SnowflakeIDGenerator.GetSnowflake(Integer, Date)
+  nameWithType: SnowflakeIDGenerator.GetSnowflake(int, DateTime)
+  nameWithType.vb: SnowflakeIDGenerator.GetSnowflake(Integer, Date)
+- uid: SnowflakeID.SnowflakeIDGenerator.GetSnowflake(System.UInt64)
+  name: GetSnowflake(ulong)
+  href: api/SnowflakeID.SnowflakeIDGenerator.html#SnowflakeID_SnowflakeIDGenerator_GetSnowflake_System_UInt64_
+  commentId: M:SnowflakeID.SnowflakeIDGenerator.GetSnowflake(System.UInt64)
+  name.vb: GetSnowflake(ULong)
+  fullName: SnowflakeID.SnowflakeIDGenerator.GetSnowflake(ulong)
+  fullName.vb: SnowflakeID.SnowflakeIDGenerator.GetSnowflake(ULong)
+  nameWithType: SnowflakeIDGenerator.GetSnowflake(ulong)
+  nameWithType.vb: SnowflakeIDGenerator.GetSnowflake(ULong)
+- uid: SnowflakeID.SnowflakeIDGenerator.GetSnowflake(System.UInt64,System.DateTime)
+  name: GetSnowflake(ulong, DateTime)
+  href: api/SnowflakeID.SnowflakeIDGenerator.html#SnowflakeID_SnowflakeIDGenerator_GetSnowflake_System_UInt64_System_DateTime_
+  commentId: M:SnowflakeID.SnowflakeIDGenerator.GetSnowflake(System.UInt64,System.DateTime)
+  name.vb: GetSnowflake(ULong, Date)
+  fullName: SnowflakeID.SnowflakeIDGenerator.GetSnowflake(ulong, System.DateTime)
+  fullName.vb: SnowflakeID.SnowflakeIDGenerator.GetSnowflake(ULong, Date)
+  nameWithType: SnowflakeIDGenerator.GetSnowflake(ulong, DateTime)
+  nameWithType.vb: SnowflakeIDGenerator.GetSnowflake(ULong, Date)
+- uid: SnowflakeID.SnowflakeIDGenerator.GetSnowflake*
+  name: GetSnowflake
+  href: api/SnowflakeID.SnowflakeIDGenerator.html#SnowflakeID_SnowflakeIDGenerator_GetSnowflake_
+  commentId: Overload:SnowflakeID.SnowflakeIDGenerator.GetSnowflake
+  isSpec: "True"
+  fullName: SnowflakeID.SnowflakeIDGenerator.GetSnowflake
+  nameWithType: SnowflakeIDGenerator.GetSnowflake
+- uid: SnowflakeID.SnowflakeIdGeneratorOptions
+  name: SnowflakeIdGeneratorOptions
+  href: api/SnowflakeID.SnowflakeIdGeneratorOptions.html
+  commentId: T:SnowflakeID.SnowflakeIdGeneratorOptions
+  fullName: SnowflakeID.SnowflakeIdGeneratorOptions
+  nameWithType: SnowflakeIdGeneratorOptions
+- uid: SnowflakeID.SnowflakeIdGeneratorOptions.Epoch
+  name: Epoch
+  href: api/SnowflakeID.SnowflakeIdGeneratorOptions.html#SnowflakeID_SnowflakeIdGeneratorOptions_Epoch
+  commentId: P:SnowflakeID.SnowflakeIdGeneratorOptions.Epoch
+  fullName: SnowflakeID.SnowflakeIdGeneratorOptions.Epoch
+  nameWithType: SnowflakeIdGeneratorOptions.Epoch
+- uid: SnowflakeID.SnowflakeIdGeneratorOptions.Epoch*
+  name: Epoch
+  href: api/SnowflakeID.SnowflakeIdGeneratorOptions.html#SnowflakeID_SnowflakeIdGeneratorOptions_Epoch_
+  commentId: Overload:SnowflakeID.SnowflakeIdGeneratorOptions.Epoch
+  isSpec: "True"
+  fullName: SnowflakeID.SnowflakeIdGeneratorOptions.Epoch
+  nameWithType: SnowflakeIdGeneratorOptions.Epoch
+- uid: SnowflakeID.SnowflakeIdGeneratorOptions.MachineId
+  name: MachineId
+  href: api/SnowflakeID.SnowflakeIdGeneratorOptions.html#SnowflakeID_SnowflakeIdGeneratorOptions_MachineId
+  commentId: P:SnowflakeID.SnowflakeIdGeneratorOptions.MachineId
+  fullName: SnowflakeID.SnowflakeIdGeneratorOptions.MachineId
+  nameWithType: SnowflakeIdGeneratorOptions.MachineId
+- uid: SnowflakeID.SnowflakeIdGeneratorOptions.MachineId*
+  name: MachineId
+  href: api/SnowflakeID.SnowflakeIdGeneratorOptions.html#SnowflakeID_SnowflakeIdGeneratorOptions_MachineId_
+  commentId: Overload:SnowflakeID.SnowflakeIdGeneratorOptions.MachineId
+  isSpec: "True"
+  fullName: SnowflakeID.SnowflakeIdGeneratorOptions.MachineId
+  nameWithType: SnowflakeIdGeneratorOptions.MachineId
+- uid: SnowflakeID.SnowflakeIdGeneratorServiceCollectionExtensions
+  name: SnowflakeIdGeneratorServiceCollectionExtensions
+  href: api/SnowflakeID.SnowflakeIdGeneratorServiceCollectionExtensions.html
+  commentId: T:SnowflakeID.SnowflakeIdGeneratorServiceCollectionExtensions
+  fullName: SnowflakeID.SnowflakeIdGeneratorServiceCollectionExtensions
+  nameWithType: SnowflakeIdGeneratorServiceCollectionExtensions
+- uid: SnowflakeID.SnowflakeIdGeneratorServiceCollectionExtensions.AddSnowflakeIdGeneratorService(Microsoft.Extensions.DependencyInjection.IServiceCollection)
+  name: AddSnowflakeIdGeneratorService(IServiceCollection)
+  href: api/SnowflakeID.SnowflakeIdGeneratorServiceCollectionExtensions.html#SnowflakeID_SnowflakeIdGeneratorServiceCollectionExtensions_AddSnowflakeIdGeneratorService_Microsoft_Extensions_DependencyInjection_IServiceCollection_
+  commentId: M:SnowflakeID.SnowflakeIdGeneratorServiceCollectionExtensions.AddSnowflakeIdGeneratorService(Microsoft.Extensions.DependencyInjection.IServiceCollection)
+  fullName: SnowflakeID.SnowflakeIdGeneratorServiceCollectionExtensions.AddSnowflakeIdGeneratorService(Microsoft.Extensions.DependencyInjection.IServiceCollection)
+  nameWithType: SnowflakeIdGeneratorServiceCollectionExtensions.AddSnowflakeIdGeneratorService(IServiceCollection)
+- uid: SnowflakeID.SnowflakeIdGeneratorServiceCollectionExtensions.AddSnowflakeIdGeneratorService(Microsoft.Extensions.DependencyInjection.IServiceCollection,SnowflakeID.SnowflakeIdGeneratorOptions)
+  name: AddSnowflakeIdGeneratorService(IServiceCollection, SnowflakeIdGeneratorOptions)
+  href: api/SnowflakeID.SnowflakeIdGeneratorServiceCollectionExtensions.html#SnowflakeID_SnowflakeIdGeneratorServiceCollectionExtensions_AddSnowflakeIdGeneratorService_Microsoft_Extensions_DependencyInjection_IServiceCollection_SnowflakeID_SnowflakeIdGeneratorOptions_
+  commentId: M:SnowflakeID.SnowflakeIdGeneratorServiceCollectionExtensions.AddSnowflakeIdGeneratorService(Microsoft.Extensions.DependencyInjection.IServiceCollection,SnowflakeID.SnowflakeIdGeneratorOptions)
+  fullName: SnowflakeID.SnowflakeIdGeneratorServiceCollectionExtensions.AddSnowflakeIdGeneratorService(Microsoft.Extensions.DependencyInjection.IServiceCollection, SnowflakeID.SnowflakeIdGeneratorOptions)
+  nameWithType: SnowflakeIdGeneratorServiceCollectionExtensions.AddSnowflakeIdGeneratorService(IServiceCollection, SnowflakeIdGeneratorOptions)
+- uid: SnowflakeID.SnowflakeIdGeneratorServiceCollectionExtensions.AddSnowflakeIdGeneratorService(Microsoft.Extensions.DependencyInjection.IServiceCollection,System.Int32)
+  name: AddSnowflakeIdGeneratorService(IServiceCollection, int)
+  href: api/SnowflakeID.SnowflakeIdGeneratorServiceCollectionExtensions.html#SnowflakeID_SnowflakeIdGeneratorServiceCollectionExtensions_AddSnowflakeIdGeneratorService_Microsoft_Extensions_DependencyInjection_IServiceCollection_System_Int32_
+  commentId: M:SnowflakeID.SnowflakeIdGeneratorServiceCollectionExtensions.AddSnowflakeIdGeneratorService(Microsoft.Extensions.DependencyInjection.IServiceCollection,System.Int32)
+  name.vb: AddSnowflakeIdGeneratorService(IServiceCollection, Integer)
+  fullName: SnowflakeID.SnowflakeIdGeneratorServiceCollectionExtensions.AddSnowflakeIdGeneratorService(Microsoft.Extensions.DependencyInjection.IServiceCollection, int)
+  fullName.vb: SnowflakeID.SnowflakeIdGeneratorServiceCollectionExtensions.AddSnowflakeIdGeneratorService(Microsoft.Extensions.DependencyInjection.IServiceCollection, Integer)
+  nameWithType: SnowflakeIdGeneratorServiceCollectionExtensions.AddSnowflakeIdGeneratorService(IServiceCollection, int)
+  nameWithType.vb: SnowflakeIdGeneratorServiceCollectionExtensions.AddSnowflakeIdGeneratorService(IServiceCollection, Integer)
+- uid: SnowflakeID.SnowflakeIdGeneratorServiceCollectionExtensions.AddSnowflakeIdGeneratorService(Microsoft.Extensions.DependencyInjection.IServiceCollection,System.Int32,System.DateTime)
+  name: AddSnowflakeIdGeneratorService(IServiceCollection, int, DateTime)
+  href: api/SnowflakeID.SnowflakeIdGeneratorServiceCollectionExtensions.html#SnowflakeID_SnowflakeIdGeneratorServiceCollectionExtensions_AddSnowflakeIdGeneratorService_Microsoft_Extensions_DependencyInjection_IServiceCollection_System_Int32_System_DateTime_
+  commentId: M:SnowflakeID.SnowflakeIdGeneratorServiceCollectionExtensions.AddSnowflakeIdGeneratorService(Microsoft.Extensions.DependencyInjection.IServiceCollection,System.Int32,System.DateTime)
+  name.vb: AddSnowflakeIdGeneratorService(IServiceCollection, Integer, Date)
+  fullName: SnowflakeID.SnowflakeIdGeneratorServiceCollectionExtensions.AddSnowflakeIdGeneratorService(Microsoft.Extensions.DependencyInjection.IServiceCollection, int, System.DateTime)
+  fullName.vb: SnowflakeID.SnowflakeIdGeneratorServiceCollectionExtensions.AddSnowflakeIdGeneratorService(Microsoft.Extensions.DependencyInjection.IServiceCollection, Integer, Date)
+  nameWithType: SnowflakeIdGeneratorServiceCollectionExtensions.AddSnowflakeIdGeneratorService(IServiceCollection, int, DateTime)
+  nameWithType.vb: SnowflakeIdGeneratorServiceCollectionExtensions.AddSnowflakeIdGeneratorService(IServiceCollection, Integer, Date)
+- uid: SnowflakeID.SnowflakeIdGeneratorServiceCollectionExtensions.AddSnowflakeIdGeneratorService(Microsoft.Extensions.DependencyInjection.IServiceCollection,System.Int64,System.DateTime)
+  name: AddSnowflakeIdGeneratorService(IServiceCollection, long, DateTime)
+  href: api/SnowflakeID.SnowflakeIdGeneratorServiceCollectionExtensions.html#SnowflakeID_SnowflakeIdGeneratorServiceCollectionExtensions_AddSnowflakeIdGeneratorService_Microsoft_Extensions_DependencyInjection_IServiceCollection_System_Int64_System_DateTime_
+  commentId: M:SnowflakeID.SnowflakeIdGeneratorServiceCollectionExtensions.AddSnowflakeIdGeneratorService(Microsoft.Extensions.DependencyInjection.IServiceCollection,System.Int64,System.DateTime)
+  name.vb: AddSnowflakeIdGeneratorService(IServiceCollection, Long, Date)
+  fullName: SnowflakeID.SnowflakeIdGeneratorServiceCollectionExtensions.AddSnowflakeIdGeneratorService(Microsoft.Extensions.DependencyInjection.IServiceCollection, long, System.DateTime)
+  fullName.vb: SnowflakeID.SnowflakeIdGeneratorServiceCollectionExtensions.AddSnowflakeIdGeneratorService(Microsoft.Extensions.DependencyInjection.IServiceCollection, Long, Date)
+  nameWithType: SnowflakeIdGeneratorServiceCollectionExtensions.AddSnowflakeIdGeneratorService(IServiceCollection, long, DateTime)
+  nameWithType.vb: SnowflakeIdGeneratorServiceCollectionExtensions.AddSnowflakeIdGeneratorService(IServiceCollection, Long, Date)
+- uid: SnowflakeID.SnowflakeIdGeneratorServiceCollectionExtensions.AddSnowflakeIdGeneratorService(Microsoft.Extensions.DependencyInjection.IServiceCollection,System.UInt64)
+  name: AddSnowflakeIdGeneratorService(IServiceCollection, ulong)
+  href: api/SnowflakeID.SnowflakeIdGeneratorServiceCollectionExtensions.html#SnowflakeID_SnowflakeIdGeneratorServiceCollectionExtensions_AddSnowflakeIdGeneratorService_Microsoft_Extensions_DependencyInjection_IServiceCollection_System_UInt64_
+  commentId: M:SnowflakeID.SnowflakeIdGeneratorServiceCollectionExtensions.AddSnowflakeIdGeneratorService(Microsoft.Extensions.DependencyInjection.IServiceCollection,System.UInt64)
+  name.vb: AddSnowflakeIdGeneratorService(IServiceCollection, ULong)
+  fullName: SnowflakeID.SnowflakeIdGeneratorServiceCollectionExtensions.AddSnowflakeIdGeneratorService(Microsoft.Extensions.DependencyInjection.IServiceCollection, ulong)
+  fullName.vb: SnowflakeID.SnowflakeIdGeneratorServiceCollectionExtensions.AddSnowflakeIdGeneratorService(Microsoft.Extensions.DependencyInjection.IServiceCollection, ULong)
+  nameWithType: SnowflakeIdGeneratorServiceCollectionExtensions.AddSnowflakeIdGeneratorService(IServiceCollection, ulong)
+  nameWithType.vb: SnowflakeIdGeneratorServiceCollectionExtensions.AddSnowflakeIdGeneratorService(IServiceCollection, ULong)
+- uid: SnowflakeID.SnowflakeIdGeneratorServiceCollectionExtensions.AddSnowflakeIdGeneratorService(Microsoft.Extensions.DependencyInjection.IServiceCollection,System.UInt64,System.DateTime)
+  name: AddSnowflakeIdGeneratorService(IServiceCollection, ulong, DateTime)
+  href: api/SnowflakeID.SnowflakeIdGeneratorServiceCollectionExtensions.html#SnowflakeID_SnowflakeIdGeneratorServiceCollectionExtensions_AddSnowflakeIdGeneratorService_Microsoft_Extensions_DependencyInjection_IServiceCollection_System_UInt64_System_DateTime_
+  commentId: M:SnowflakeID.SnowflakeIdGeneratorServiceCollectionExtensions.AddSnowflakeIdGeneratorService(Microsoft.Extensions.DependencyInjection.IServiceCollection,System.UInt64,System.DateTime)
+  name.vb: AddSnowflakeIdGeneratorService(IServiceCollection, ULong, Date)
+  fullName: SnowflakeID.SnowflakeIdGeneratorServiceCollectionExtensions.AddSnowflakeIdGeneratorService(Microsoft.Extensions.DependencyInjection.IServiceCollection, ulong, System.DateTime)
+  fullName.vb: SnowflakeID.SnowflakeIdGeneratorServiceCollectionExtensions.AddSnowflakeIdGeneratorService(Microsoft.Extensions.DependencyInjection.IServiceCollection, ULong, Date)
+  nameWithType: SnowflakeIdGeneratorServiceCollectionExtensions.AddSnowflakeIdGeneratorService(IServiceCollection, ulong, DateTime)
+  nameWithType.vb: SnowflakeIdGeneratorServiceCollectionExtensions.AddSnowflakeIdGeneratorService(IServiceCollection, ULong, Date)
+- uid: SnowflakeID.SnowflakeIdGeneratorServiceCollectionExtensions.AddSnowflakeIdGeneratorService*
+  name: AddSnowflakeIdGeneratorService
+  href: api/SnowflakeID.SnowflakeIdGeneratorServiceCollectionExtensions.html#SnowflakeID_SnowflakeIdGeneratorServiceCollectionExtensions_AddSnowflakeIdGeneratorService_
+  commentId: Overload:SnowflakeID.SnowflakeIdGeneratorServiceCollectionExtensions.AddSnowflakeIdGeneratorService
+  isSpec: "True"
+  fullName: SnowflakeID.SnowflakeIdGeneratorServiceCollectionExtensions.AddSnowflakeIdGeneratorService
+  nameWithType: SnowflakeIdGeneratorServiceCollectionExtensions.AddSnowflakeIdGeneratorService

@@ -1,0 +1,195 @@
+{
+  "source_base_path": "/home/vsts/work/1/s",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "Resource",
+      "output": {
+        "resource": {
+          "relative_path": "index.json"
+        }
+      }
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "CHANGELOG.md",
+      "output": {
+        ".html": {
+          "relative_path": "CHANGELOG.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "README.md",
+      "output": {
+        ".html": {
+          "relative_path": "README.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "SnowflakeIDGenerator.DependencyInjection/README.md",
+      "output": {
+        ".html": {
+          "relative_path": "SnowflakeIDGenerator.DependencyInjection/README.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SnowflakeID.Exceptions.SnowflakesUsingDifferentEpochsException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SnowflakeID.Exceptions.SnowflakesUsingDifferentEpochsException.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SnowflakeID.Exceptions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SnowflakeID.Exceptions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SnowflakeID.Helpers.GlobalConstants.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SnowflakeID.Helpers.GlobalConstants.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SnowflakeID.Helpers.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SnowflakeID.Helpers.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SnowflakeID.ISnowflakeIDGenerator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SnowflakeID.ISnowflakeIDGenerator.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SnowflakeID.ISnowflakeIDGeneratorClsCompliant.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SnowflakeID.ISnowflakeIDGeneratorClsCompliant.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SnowflakeID.Snowflake.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SnowflakeID.Snowflake.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SnowflakeID.SnowflakeIDGenerator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SnowflakeID.SnowflakeIDGenerator.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SnowflakeID.SnowflakeIdGeneratorOptions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SnowflakeID.SnowflakeIdGeneratorOptions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SnowflakeID.SnowflakeIdGeneratorServiceCollectionExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SnowflakeID.SnowflakeIdGeneratorServiceCollectionExtensions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SnowflakeID.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SnowflakeID.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "api/toc.yml",
+      "output": {
+        ".json": {
+          "relative_path": "api/toc.json"
+        },
+        ".html": {
+          "relative_path": "api/toc.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".json": {
+          "relative_path": "toc.json"
+        },
+        ".html": {
+          "relative_path": "toc.html"
+        }
+      },
+      "version": ""
+    }
+  ],
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}

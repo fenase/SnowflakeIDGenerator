@@ -1,0 +1,251 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Snowflake Id Generator | SnowflakeIDGenerator </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Snowflake Id Generator | SnowflakeIDGenerator ">
+      
+      
+      <link rel="icon" href="favicon.ico">
+      <link rel="stylesheet" href="public/docfx.min.css">
+      <link rel="stylesheet" href="public/main.css">
+      <meta name="docfx:navrel" content="toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/fenase/SnowflakeIDGenerator/blob/master/README.md/#L1">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="index.html">
+            <img id="logo" class="svg" src="logo.svg" alt="SnowflakeIDGenerator">
+            SnowflakeIDGenerator
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+
+      <div class="content">
+        <div class="actionbar">
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="">
+<h1 id="snowflake-id-generator">Snowflake Id Generator</h1>
+
+<p>Generate unique identifiers based on Twitter's <a href="https://en.wikipedia.org/wiki/Snowflake_ID">Snowflake ID</a>.
+Parse a Snowflake to get information about it's creation.</p>
+<p><a href="https://www.nuget.org/packages/SnowflakeIDGenerator"><img src="https://img.shields.io/nuget/v/SnowflakeIDGenerator?logo=nuget" alt="Nuget"></a>
+<a href="https://dev.azure.com/fenase/SnowflakeIDGenerator/_build/latest?definitionId=21"><img src="https://dev.azure.com/fenase/SnowflakeIDGenerator/_apis/build/status%2FSnowflakeIDGenerator-CI?branchName=master" alt="Build Status"></a>
+<a href="https://sonarcloud.io/summary/overall?id=fenase_SnowflakeIDGenerator2"><img src="https://sonarcloud.io/api/project_badges/measure?project=fenase_SnowflakeIDGenerator2&amp;metric=alert_status" alt="Quality Gate Status"></a>
+<a href="https://sonarcloud.io/summary/overall?id=fenase_SnowflakeIDGenerator2"><img src="https://sonarcloud.io/api/project_badges/measure?project=fenase_SnowflakeIDGenerator2&amp;metric=ncloc" alt="Lines of Code"></a>
+<a href="https://sonarcloud.io/summary/overall?id=fenase_SnowflakeIDGenerator2"><img src="https://sonarcloud.io/api/project_badges/measure?project=fenase_SnowflakeIDGenerator2&amp;metric=coverage" alt="Coverage"></a></p>
+<ul>
+<li><a href="#snowflakes">Snowflakes</a></li>
+<li><a href="#usage">Usage</a>
+<ul>
+<li><a href="#generate">Generate</a>
+<ul>
+<li><a href="#using-the-snowflakeidgenerator-class">Using the <code>SnowflakeIDGenerator</code> class</a></li>
+<li><a href="#using-the-snowflakeidgenerator-class-as-static">Using the <code>SnowflakeIDGenerator</code> class as static</a></li>
+<li><a href="#using-a-non-standard-date-as-epoch">Using a non-standard date as epoch</a></li>
+</ul>
+</li>
+<li><a href="#parsing-an-id">Parsing an Id</a></li>
+<li><a href="#the-snowflake-object">The Snowflake object</a></li>
+<li><a href="#changing-epoch-on-generated-codes">Changing Epoch on generated codes</a></li>
+</ul>
+</li>
+</ul>
+<h1 id="snowflakes">Snowflakes</h1>
+<p>Snowflakes (or SnoflakeIds) are a form of generating identifiers used in distributed computing that, when used properly,
+guarantees uniqueness between systems, since one of it's components refers to the system creating the ID.</p>
+<p>The other components refer to the current date and time, in order not to keep track of a long running sequencer
+(for example, a sequence in a database),
+and a short (in memory) sequence, to allow the generation of several codes in a short amount of time.</p>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;"><img src="https://raw.githubusercontent.com/fenase/SnowflakeIDGenerator/master/ReadmeImages/SnowflakeId-Wikipedia.png" alt="SnowflakeId components"></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;"><em>Image Source &amp; credit available in <a href="https://commons.wikimedia.org/wiki/File:Snowflake-identifier.png">wikimedia</a>. &quot;instance&quot; in this image replaces machineId in the library / package</em></td>
+</tr>
+</tbody>
+</table>
+<h1 id="usage">Usage</h1>
+<h2 id="generate">Generate</h2>
+<p>There are 2 ways of using the generator:</p>
+<ul>
+<li>Using the <code>SnowflakeIDGenerator</code> class as a static class.
+Useful when generating a single code to avoid dealing with constructors and the scope of the generator object.</li>
+<li>Instantiating the <code>SnowflakeIDGenerator</code> class.
+Recommended if you plan to generate more than a few codes at the same time.
+<blockquote>
+<p>On version 1.4.2024 and up you can use the interface <code>ISnowflakeIDGenerator</code>.
+If you prefer to use dependency injection, the package <a href="https://www.nuget.org/packages/SnowflakeIDGenerator.DependencyInjection">SnowflakeIDGenerator.DependencyInjection</a>
+might be helpful.</p>
+</blockquote>
+</li>
+</ul>
+<h3 id="using-the-snowflakeidgenerator-class">Using the <code>SnowflakeIDGenerator</code> class</h3>
+<ol>
+<li>Instantiate class <code>SnowflakeIDGenerator</code></li>
+</ol>
+<pre><code class="lang-c#">SnowflakeIDGenerator generator = new SnowflakeIDGenerator(machineId);
+</code></pre>
+<p>where <code>machineId</code> is the number / identifier of the system currently trying to get an id</p>
+<p>Starting on version 1.1.2023 you can instruct the generator to use a custom date as epoch
+from which the timestamps are derived for the current date.</p>
+<pre><code class="lang-c#">SnowflakeIDGenerator generator = new SnowflakeIDGenerator(machineId, CustomEpoch);
+</code></pre>
+<ol start="2">
+<li>Using the generator object, there are 3 ways of obtaining the code:
+<ol>
+<li>Call <code>generator.GetSnowflake()</code> to get a <code>Snowflake</code> object</li>
+<li>Call <code>generator.GetCode()</code> to get an Id in number (ulong) format</li>
+<li>Call <code>generator.GetCodeString()</code> to get an Id in string format</li>
+</ol>
+</li>
+</ol>
+<h3 id="using-the-snowflakeidgenerator-class-as-static">Using the <code>SnowflakeIDGenerator</code> class as static</h3>
+<p>If you only need to get a single Id, it's easier to just use the generator class as static.</p>
+<p>The method names are the same as when using the generator, except they need the <code>machineId</code> as parameter:</p>
+<ol>
+<li>Call <code>SnowflakeIDGenerator.GetSnowflake(machineId)</code> to get a <code>Snowflake</code> object</li>
+<li>Call <code>SnowflakeIDGenerator.GetCode(machineId)</code> to get an Id in number (ulong) format</li>
+<li>Call <code>SnowflakeIDGenerator.GetCodeString(machineId)</code> to get an Id in string format</li>
+</ol>
+<h3 id="using-a-non-standard-date-as-epoch">Using a non-standard date as epoch</h3>
+<p><em>version 1.1.2023 and up</em></p>
+<p>The first component of the codes is the amount of milliseconds elapsed since a set point in time, called epoch.
+By default, the generator uses the unix epoch (jan-1-1970 12:00:00am) as starting point to count.</p>
+<p>Adding a <code>DateTime</code> object as an extra parameter when using the generator allows to change the zero value to be used to count milliseconds to.</p>
+<pre><code class="lang-c#">DateTime customEpoch = new DateTime(year: 2020, month: 1, day: 1, hour: 0, minute: 0, second: 0, DateTimeKind.Utc);
+
+// Creating the generator class
+SnowflakeIDGenerator generator = new SnowflakeIDGenerator(machineId, customEpoch);
+
+// This works when using as static too!
+SnowflakeIDGenerator.GetSnowflake(machineId, customEpoch)
+</code></pre>
+<h2 id="parsing-an-id">Parsing an Id</h2>
+<p>Parse a Snowflake either from a string or a number (ulong) in order to get information regarding the generation,
+such as the time or the machine that generated the code.</p>
+<p>If a custom epoch was used when generating, that DateTime must be passed as second parameter when parsing in order to get the right generation date.</p>
+<pre><code class="lang-c#">string s = &quot;06975580616378931208&quot;;
+ulong n = 6975580821430984519ul;
+Snowflake fromString = Snowflake.Parse(s);
+var utcDateTimeFromString = fromString.UtcDateTime; // 13/9/2022 22:26:58
+var timestampFromString = fromString.Timestamp;     // 1663108018965
+var machineIdFromString = fromString.MachineId;     // 477
+var sequenceFromString = fromString.Sequence;       // 2056
+
+Snowflake fromNumber = Snowflake.Parse(n);
+var utcDateTimeFromNumber = fromNumber.UtcDateTime; // 13/9/2022 22:27:47
+var timestampFromNumber = fromNumber.Timestamp;     // 1663108067853
+var machineIdFromNumber = fromNumber.MachineId;     // 701
+var sequenceFromNumber = fromNumber.Sequence;       // 3911
+</code></pre>
+<p>Additionally, starting on version 1.2.2023 you can cast a string or a number (ulong) directly into a Snowflake
+without using the <code>Parse()</code> method (only when using the default epoch).</p>
+<pre><code class="lang-c#">string s = &quot;06975580616378931208&quot;;
+ulong n = 6975580821430984519ul;
+Snowflake fromString = (Snowflake)s;
+var utcDateTimeFromString = fromString.UtcDateTime; // 13/9/2022 22:26:58
+var timestampFromString = fromString.Timestamp;     // 1663108018965
+var machineIdFromString = fromString.MachineId;     // 477
+var sequenceFromString = fromString.Sequence;       // 2056
+
+Snowflake fromNumber = (Snowflake)n;
+var utcDateTimeFromNumber = fromNumber.UtcDateTime; // 13/9/2022 22:27:47
+var timestampFromNumber = fromNumber.Timestamp;     // 1663108067853
+var machineIdFromNumber = fromNumber.MachineId;     // 701
+var sequenceFromNumber = fromNumber.Sequence;       // 3911
+</code></pre>
+<h2 id="the-snowflake-object">The Snowflake object</h2>
+<p>While the <code>SnowflakeIDGenerator</code> class keeps track of time, machine and sequence,
+a <code>Snowflake</code> object keeps track of the meaning of the code, and allows to extract information about said code.</p>
+<p>For example, as seen on the <a href="#parsing-an-id">parsing an Id</a> section, when working with a <code>Snowflake</code> object
+(either parsed or just generated), you can see some information. The available fields are:</p>
+<ul>
+<li><code>UtcDateTime</code>: The creation date (UTC format)</li>
+<li><code>Timestamp</code> and <code>TimestampInt64</code> The timestamp component of the code. Amount of milliseconds since the configured epoch</li>
+<li><code>MachineId</code> and <code>MachineIdInt32</code>: the machine / terminal / server that created the id</li>
+<li><code>Sequence</code> and <code>SequenceInt32</code>: The sequencer. If greater than 0, multiple ids where generated withing the same millisecond</li>
+<li><code>Id</code>: The Snowflake id in <code>ulong</code> format</li>
+<li><code>Code</code>: The Snowflake id as <code>String</code></li>
+</ul>
+<h2 id="changing-epoch-on-generated-codes">Changing Epoch on generated codes</h2>
+<p>If you need to change the epoch on an already generated code,
+use <code>ChangeEpoch()</code> to change it keeping the same code but changing the represented date,
+or use <code>RebaseEpoch()</code> to keep the date but changing the final code.</p>
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/fenase/SnowflakeIDGenerator/blob/master/README.md/#L1" class="edit-link">Edit this page</a>
+        </div>
+
+        <div class="next-article d-print-none border-top" id="nextArticle"></div>
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
