@@ -6,7 +6,7 @@
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <meta name="title" content="Class SnowflakeIdGeneratorOptions | SnowflakeIDGenerator ">
       
-      <meta name="description" content="Option object for">
+      <meta name="description" content="Option object for .">
       <link rel="icon" href="../favicon.ico">
       <link rel="stylesheet" href="../public/docfx.min.css">
       <link rel="stylesheet" href="../public/main.css">
@@ -16,7 +16,7 @@
       <meta name="docfx:rel" content="../">
       
       
-      <meta name="docfx:docurl" content="https://github.com/fenase/SnowflakeIDGenerator/new/master/apiSpec/new?filename=SnowflakeID_SnowflakeIdGeneratorOptions.md&amp;value=---%0Auid%3A%20SnowflakeID.SnowflakeIdGeneratorOptions%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="docfx:docurl" content="https://github.com/fenase/SnowflakeIDGenerator/new/merge/apiSpec/new?filename=SnowflakeID_SnowflakeIdGeneratorOptions.md&amp;value=---%0Auid%3A%20SnowflakeID.SnowflakeIdGeneratorOptions%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
       <meta name="loc:inThisArticle" content="In this article">
       <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
       <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
@@ -89,7 +89,7 @@
 
 
   <h1 id="SnowflakeID_SnowflakeIdGeneratorOptions" data-uid="SnowflakeID.SnowflakeIdGeneratorOptions" class="text-break">
-Class SnowflakeIdGeneratorOptions  <a class="header-action link-secondary" title="View source" href="https://github.com/fenase/SnowflakeIDGenerator/blob/master/SnowflakeIDGenerator.DependencyInjection/SnowflakeIdGeneratorOptions.cs/#L13"><i class="bi bi-code-slash"></i></a>
+Class SnowflakeIdGeneratorOptions  <a class="header-action link-secondary" title="View source" href="https://github.com/fenase/SnowflakeIDGenerator/blob/merge/SnowflakeIDGenerator.DependencyInjection/SnowflakeIdGeneratorOptions.cs/#L13"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -97,7 +97,7 @@ Class SnowflakeIdGeneratorOptions  <a class="header-action link-secondary" title
   <dl><dt>Assembly</dt><dd>SnowflakeIDGenerator.DependencyInjection.dll</dd></dl>
   </div>
 
-  <div class="markdown summary"><p>Option object for <a class="xref" href="SnowflakeID.SnowflakeIDGenerator.html">SnowflakeIDGenerator</a></p>
+  <div class="markdown summary"><p>Option object for <a class="xref" href="SnowflakeID.SnowflakeIDGenerator.html">SnowflakeIDGenerator</a>.</p>
 </div>
   <div class="markdown conceptual"></div>
 
@@ -157,11 +157,10 @@ Class SnowflakeIdGeneratorOptions  <a class="header-action link-secondary" title
 
   <h3 id="SnowflakeID_SnowflakeIdGeneratorOptions_Epoch" data-uid="SnowflakeID.SnowflakeIdGeneratorOptions.Epoch">
   Epoch
-  <a class="header-action link-secondary" title="View source" href="https://github.com/fenase/SnowflakeIDGenerator/blob/master/SnowflakeIDGenerator.DependencyInjection/SnowflakeIdGeneratorOptions.cs/#L26"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/fenase/SnowflakeIDGenerator/blob/merge/SnowflakeIDGenerator.DependencyInjection/SnowflakeIdGeneratorOptions.cs/#L35"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>String representing date to use as epoch
-Use this in options</p>
+  <div class="markdown level1 summary"><p>Gets or sets the epoch date as a string.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -176,12 +175,17 @@ Use this in options</p>
   <h4 class="section">Property Value</h4>
   <dl class="parameters">
     <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
-    <dd></dd>
+    <dd><p>The epoch date as a string in ISO 8601 format.</p>
+</dd>
   </dl>
 
 
 
 
+  <h4 class="section" id="SnowflakeID_SnowflakeIdGeneratorOptions_Epoch_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>This property allows setting the epoch date using a string representation.
+The date is parsed and stored internally as a <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.datetime">DateTime</a> object in UTC.</p>
+</div>
 
 
 
@@ -190,10 +194,10 @@ Use this in options</p>
 
   <h3 id="SnowflakeID_SnowflakeIdGeneratorOptions_MachineId" data-uid="SnowflakeID.SnowflakeIdGeneratorOptions.MachineId">
   MachineId
-  <a class="header-action link-secondary" title="View source" href="https://github.com/fenase/SnowflakeIDGenerator/blob/master/SnowflakeIDGenerator.DependencyInjection/SnowflakeIdGeneratorOptions.cs/#L18"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/fenase/SnowflakeIDGenerator/blob/merge/SnowflakeIDGenerator.DependencyInjection/SnowflakeIdGeneratorOptions.cs/#L19"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>Machine number</p>
+  <div class="markdown level1 summary"><p>Gets or sets the machine ID.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -208,7 +212,8 @@ Use this in options</p>
   <h4 class="section">Property Value</h4>
   <dl class="parameters">
     <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
-    <dd></dd>
+    <dd><p>The machine ID as an <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a>.</p>
+</dd>
   </dl>
 
 
@@ -222,7 +227,7 @@ Use this in options</p>
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/fenase/SnowflakeIDGenerator/blob/master/SnowflakeIDGenerator.DependencyInjection/SnowflakeIdGeneratorOptions.cs/#L13" class="edit-link">Edit this page</a>
+          <a href="https://github.com/fenase/SnowflakeIDGenerator/blob/merge/SnowflakeIDGenerator.DependencyInjection/SnowflakeIdGeneratorOptions.cs/#L13" class="edit-link">Edit this page</a>
         </div>
 
 
