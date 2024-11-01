@@ -452,12 +452,6 @@ references:
   commentId: F:SnowflakeID.Snowflake.MaxSequence
   fullName: SnowflakeID.Snowflake.MaxSequence
   nameWithType: Snowflake.MaxSequence
-- uid: SnowflakeID.Snowflake.MaxTimestamp
-  name: MaxTimestamp
-  href: api/SnowflakeID.Snowflake.html#SnowflakeID_Snowflake_MaxTimestamp
-  commentId: F:SnowflakeID.Snowflake.MaxTimestamp
-  fullName: SnowflakeID.Snowflake.MaxTimestamp
-  nameWithType: Snowflake.MaxTimestamp
 - uid: SnowflakeID.Snowflake.NumberOfDigits
   name: NumberOfDigits
   href: api/SnowflakeID.Snowflake.html#SnowflakeID_Snowflake_NumberOfDigits
