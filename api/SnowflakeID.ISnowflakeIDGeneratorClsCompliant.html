@@ -6,7 +6,7 @@
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <meta name="title" content="Interface ISnowflakeIDGeneratorClsCompliant | SnowflakeIDGenerator ">
       
-      <meta name="description" content="Generator class for . This keeps track of time, machine number and sequence.">
+      <meta name="description" content="Interface for the generator class for . This keeps track of time, machine number and sequence.">
       <link rel="icon" href="../favicon.ico">
       <link rel="stylesheet" href="../public/docfx.min.css">
       <link rel="stylesheet" href="../public/main.css">
@@ -97,7 +97,7 @@ Interface ISnowflakeIDGeneratorClsCompliant  <a class="header-action link-second
   <dl><dt>Assembly</dt><dd>SnowflakeIDGenerator.dll</dd></dl>
   </div>
 
-  <div class="markdown summary"><p>Generator class for <a class="xref" href="SnowflakeID.html">SnowflakeID</a>.</p>
+  <div class="markdown summary"><p>Interface for the generator class for <a class="xref" href="SnowflakeID.Snowflake.html">Snowflake</a>.</p>
 <p>This keeps track of time, machine number and sequence.</p>
 </div>
   <div class="markdown conceptual"></div>
@@ -126,10 +126,10 @@ Interface ISnowflakeIDGeneratorClsCompliant  <a class="header-action link-second
 
   <h3 id="SnowflakeID_ISnowflakeIDGeneratorClsCompliant_ConfiguredEpoch" data-uid="SnowflakeID.ISnowflakeIDGeneratorClsCompliant.ConfiguredEpoch">
   ConfiguredEpoch
-  <a class="header-action link-secondary" title="View source" href="https://github.com/fenase/SnowflakeIDGenerator/blob/master/SnowflakeIDGenerator/ISnowflakeIDGeneratorCLSCompliant.cs/#L19"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/fenase/SnowflakeIDGenerator/blob/master/SnowflakeIDGenerator/ISnowflakeIDGeneratorCLSCompliant.cs/#L25"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>Date configured as epoch for the generator</p>
+  <div class="markdown level1 summary"><p>Gets the date configured as the epoch for the generator.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -144,12 +144,16 @@ Interface ISnowflakeIDGeneratorClsCompliant  <a class="header-action link-second
   <h4 class="section">Property Value</h4>
   <dl class="parameters">
     <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.datetime">DateTime</a></dt>
-    <dd></dd>
+    <dd><p>The <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.datetime">DateTime</a> value representing the custom epoch date.</p>
+</dd>
   </dl>
 
 
 
 
+  <h4 class="section" id="SnowflakeID_ISnowflakeIDGeneratorClsCompliant_ConfiguredEpoch_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>The epoch date is used as the starting point for generating unique IDs.</p>
+</div>
 
 
 
@@ -158,10 +162,10 @@ Interface ISnowflakeIDGeneratorClsCompliant  <a class="header-action link-second
 
   <h3 id="SnowflakeID_ISnowflakeIDGeneratorClsCompliant_ConfiguredMachineId" data-uid="SnowflakeID.ISnowflakeIDGeneratorClsCompliant.ConfiguredMachineId">
   ConfiguredMachineId
-  <a class="header-action link-secondary" title="View source" href="https://github.com/fenase/SnowflakeIDGenerator/blob/master/SnowflakeIDGenerator/ISnowflakeIDGeneratorCLSCompliant.cs/#L24"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/fenase/SnowflakeIDGenerator/blob/master/SnowflakeIDGenerator/ISnowflakeIDGeneratorCLSCompliant.cs/#L36"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>Configured instance id for the generator</p>
+  <div class="markdown level1 summary"><p>Gets the configured machine ID for the generator.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -176,12 +180,16 @@ Interface ISnowflakeIDGeneratorClsCompliant  <a class="header-action link-second
   <h4 class="section">Property Value</h4>
   <dl class="parameters">
     <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
-    <dd></dd>
+    <dd><p>The <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a> value representing the machine ID.</p>
+</dd>
   </dl>
 
 
 
 
+  <h4 class="section" id="SnowflakeID_ISnowflakeIDGeneratorClsCompliant_ConfiguredMachineId_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>The machine ID is used to ensure uniqueness across different instances of the generator.</p>
+</div>
 
 
 
@@ -194,10 +202,10 @@ Interface ISnowflakeIDGeneratorClsCompliant  <a class="header-action link-second
 
   <h3 id="SnowflakeID_ISnowflakeIDGeneratorClsCompliant_GetCodeString" data-uid="SnowflakeID.ISnowflakeIDGeneratorClsCompliant.GetCodeString">
   GetCodeString()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/fenase/SnowflakeIDGenerator/blob/master/SnowflakeIDGenerator/ISnowflakeIDGeneratorCLSCompliant.cs/#L31"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/fenase/SnowflakeIDGenerator/blob/master/SnowflakeIDGenerator/ISnowflakeIDGeneratorCLSCompliant.cs/#L45"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>Gets next Snowflake as</p>
+  <div class="markdown level1 summary"><p>Gets the next Snowflake ID as a string.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -209,7 +217,8 @@ Interface ISnowflakeIDGeneratorClsCompliant  <a class="header-action link-second
   <h4 class="section">Returns</h4>
   <dl class="parameters">
     <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
-    <dd></dd>
+    <dd><p>A <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a> representing the next Snowflake ID.</p>
+</dd>
   </dl>
 
 
@@ -218,6 +227,9 @@ Interface ISnowflakeIDGeneratorClsCompliant  <a class="header-action link-second
 
 
 
+  <h4 class="section" id="SnowflakeID_ISnowflakeIDGeneratorClsCompliant_GetCodeString_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>This method generates a new Snowflake ID and returns it as a string value.</p>
+</div>
 
 
 
@@ -226,10 +238,10 @@ Interface ISnowflakeIDGeneratorClsCompliant  <a class="header-action link-second
 
   <h3 id="SnowflakeID_ISnowflakeIDGeneratorClsCompliant_GetSnowflake" data-uid="SnowflakeID.ISnowflakeIDGeneratorClsCompliant.GetSnowflake">
   GetSnowflake()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/fenase/SnowflakeIDGenerator/blob/master/SnowflakeIDGenerator/ISnowflakeIDGeneratorCLSCompliant.cs/#L37"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/fenase/SnowflakeIDGenerator/blob/master/SnowflakeIDGenerator/ISnowflakeIDGeneratorCLSCompliant.cs/#L54"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>Gets next Snowflake id</p>
+  <div class="markdown level1 summary"><p>Generates the next Snowflake ID.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -241,7 +253,8 @@ Interface ISnowflakeIDGeneratorClsCompliant  <a class="header-action link-second
   <h4 class="section">Returns</h4>
   <dl class="parameters">
     <dt><a class="xref" href="SnowflakeID.Snowflake.html">Snowflake</a></dt>
-    <dd></dd>
+    <dd><p>A <a class="xref" href="SnowflakeID.Snowflake.html">Snowflake</a> object containing the generated ID.</p>
+</dd>
   </dl>
 
 
@@ -250,6 +263,9 @@ Interface ISnowflakeIDGeneratorClsCompliant  <a class="header-action link-second
 
 
 
+  <h4 class="section" id="SnowflakeID_ISnowflakeIDGeneratorClsCompliant_GetSnowflake_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>This method generates a new Snowflake ID and returns it as a <a class="xref" href="SnowflakeID.Snowflake.html">Snowflake</a> object.</p>
+</div>
 
 
 
