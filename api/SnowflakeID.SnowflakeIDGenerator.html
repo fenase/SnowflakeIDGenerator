@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
   <head>
     <meta charset="utf-8">
@@ -54,7 +54,7 @@
             <div id="navbar">
               <form class="search" role="search" id="search">
                 <i class="bi bi-search"></i>
-                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
               </form>
             </div>
           </div>
@@ -89,7 +89,7 @@
 
 
   <h1 id="SnowflakeID_SnowflakeIDGenerator" data-uid="SnowflakeID.SnowflakeIDGenerator" class="text-break">
-Class SnowflakeIDGenerator  <a class="header-action link-secondary" title="View source" href="https://github.com/fenase/SnowflakeIDGenerator/blob/master/SnowflakeIDGenerator/SnowflakeIDGenerator.cs/#L14"><i class="bi bi-code-slash"></i></a>
+Class SnowflakeIDGenerator  <a class="header-action link-secondary" title="View source" href="https://github.com/fenase/SnowflakeIDGenerator/blob/master/SnowflakeIDGenerator/SnowflakeIDGenerator.cs/#L20"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -130,10 +130,16 @@ Class SnowflakeIDGenerator  <a class="header-action link-secondary" title="View 
     <dt>Inherited Members</dt>
     <dd>
     <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
+    </div>
+    <div>
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
     </div>
     <div>
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
     </div>
     <div>
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode">object.GetHashCode()</a>
@@ -144,17 +150,25 @@ Class SnowflakeIDGenerator  <a class="header-action link-secondary" title="View 
     <div>
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone">object.MemberwiseClone()</a>
     </div>
-    <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
-    </div>
-    <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
-    </div>
   </dd></dl>
 
 
 
 
+  <h2 id="SnowflakeID_SnowflakeIDGenerator_remarks">Remarks</h2>
+  <div class="markdown level0 remarks"><p>
+  <a href="https://www.nuget.org/packages/SnowflakeIDGenerator">NuGet</a>
+</p>
+<p>
+  <a href="https://github.com/fenase/SnowflakeIDGenerator">Source</a>
+</p>
+<p>
+  <a href="https://fenase.github.io/SnowflakeIDGenerator/api/SnowflakeID.html">API</a>
+</p>
+<p>
+  <a href="https://fenase.github.io/projects/SnowflakeIDGenerator">Site</a>
+</p>
+</div>
 
 
   <h2 class="section" id="constructors">Constructors
@@ -165,7 +179,7 @@ Class SnowflakeIDGenerator  <a class="header-action link-secondary" title="View 
 
   <h3 id="SnowflakeID_SnowflakeIDGenerator__ctor_System_Int32_" data-uid="SnowflakeID.SnowflakeIDGenerator.#ctor(System.Int32)">
   SnowflakeIDGenerator(int)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/fenase/SnowflakeIDGenerator/blob/master/SnowflakeIDGenerator/SnowflakeIDGenerator.cs/#L118"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/fenase/SnowflakeIDGenerator/blob/master/SnowflakeIDGenerator/SnowflakeIDGenerator.cs/#L126"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Creates a SnowflakeIDGenerator for a given machine number.</p>
@@ -208,7 +222,7 @@ It ensures that the machine ID is within the valid range and sets the initial ti
 
   <h3 id="SnowflakeID_SnowflakeIDGenerator__ctor_System_Int32_System_DateTime_" data-uid="SnowflakeID.SnowflakeIDGenerator.#ctor(System.Int32,System.DateTime)">
   SnowflakeIDGenerator(int, DateTime)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/fenase/SnowflakeIDGenerator/blob/master/SnowflakeIDGenerator/SnowflakeIDGenerator.cs/#L105"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/fenase/SnowflakeIDGenerator/blob/master/SnowflakeIDGenerator/SnowflakeIDGenerator.cs/#L113"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Creates a SnowflakeIDGenerator for a given machine number using a custom date as epoch.</p>
@@ -254,7 +268,7 @@ It ensures that the machine ID is within the valid range and sets the initial ti
 
   <h3 id="SnowflakeID_SnowflakeIDGenerator__ctor_System_UInt64_" data-uid="SnowflakeID.SnowflakeIDGenerator.#ctor(System.UInt64)">
   SnowflakeIDGenerator(ulong)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/fenase/SnowflakeIDGenerator/blob/master/SnowflakeIDGenerator/SnowflakeIDGenerator.cs/#L90"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/fenase/SnowflakeIDGenerator/blob/master/SnowflakeIDGenerator/SnowflakeIDGenerator.cs/#L98"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Creates a SnowflakeIDGenerator for a given machine number.</p>
@@ -298,7 +312,7 @@ It ensures that the machine ID is within the valid range and sets the initial ti
 
   <h3 id="SnowflakeID_SnowflakeIDGenerator__ctor_System_UInt64_System_DateTime_" data-uid="SnowflakeID.SnowflakeIDGenerator.#ctor(System.UInt64,System.DateTime)">
   SnowflakeIDGenerator(ulong, DateTime)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/fenase/SnowflakeIDGenerator/blob/master/SnowflakeIDGenerator/SnowflakeIDGenerator.cs/#L65"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/fenase/SnowflakeIDGenerator/blob/master/SnowflakeIDGenerator/SnowflakeIDGenerator.cs/#L73"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Creates a SnowflakeIDGenerator for a given machine number using a custom date as epoch.</p>
@@ -349,7 +363,7 @@ It ensures that the machine ID is within the valid range and sets the initial ti
 
   <h3 id="SnowflakeID_SnowflakeIDGenerator_ConfiguredEpoch" data-uid="SnowflakeID.SnowflakeIDGenerator.ConfiguredEpoch">
   ConfiguredEpoch
-  <a class="header-action link-secondary" title="View source" href="https://github.com/fenase/SnowflakeIDGenerator/blob/master/SnowflakeIDGenerator/SnowflakeIDGenerator.cs/#L32"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/fenase/SnowflakeIDGenerator/blob/master/SnowflakeIDGenerator/SnowflakeIDGenerator.cs/#L42"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Gets the date configured as the epoch for the generator.</p>
@@ -385,7 +399,7 @@ It ensures that the machine ID is within the valid range and sets the initial ti
 
   <h3 id="SnowflakeID_SnowflakeIDGenerator_ConfiguredMachineId" data-uid="SnowflakeID.SnowflakeIDGenerator.ConfiguredMachineId">
   ConfiguredMachineId
-  <a class="header-action link-secondary" title="View source" href="https://github.com/fenase/SnowflakeIDGenerator/blob/master/SnowflakeIDGenerator/SnowflakeIDGenerator.cs/#L43"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/fenase/SnowflakeIDGenerator/blob/master/SnowflakeIDGenerator/SnowflakeIDGenerator.cs/#L53"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Gets the configured machine ID for the generator.</p>
@@ -425,7 +439,7 @@ It ensures that the machine ID is within the valid range and sets the initial ti
 
   <h3 id="SnowflakeID_SnowflakeIDGenerator_GetCode" data-uid="SnowflakeID.SnowflakeIDGenerator.GetCode">
   GetCode()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/fenase/SnowflakeIDGenerator/blob/master/SnowflakeIDGenerator/SnowflakeIDGenerator.cs/#L171"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/fenase/SnowflakeIDGenerator/blob/master/SnowflakeIDGenerator/SnowflakeIDGenerator.cs/#L179"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Gets the next Snowflake ID as a number.</p>
@@ -462,7 +476,7 @@ public ulong GetCode()</code></pre>
 
   <h3 id="SnowflakeID_SnowflakeIDGenerator_GetCode_System_UInt64_" data-uid="SnowflakeID.SnowflakeIDGenerator.GetCode(System.UInt64)">
   GetCode(ulong)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/fenase/SnowflakeIDGenerator/blob/master/SnowflakeIDGenerator/SnowflakeIDGenerator.cs/#L235"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/fenase/SnowflakeIDGenerator/blob/master/SnowflakeIDGenerator/SnowflakeIDGenerator.cs/#L232"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Static method to get the next Snowflake ID as a number for a given machine ID.</p>
@@ -502,7 +516,7 @@ public static ulong GetCode(ulong machineId)</code></pre>
 
   <h3 id="SnowflakeID_SnowflakeIDGenerator_GetCode_System_UInt64_System_DateTime_" data-uid="SnowflakeID.SnowflakeIDGenerator.GetCode(System.UInt64,System.DateTime)">
   GetCode(ulong, DateTime)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/fenase/SnowflakeIDGenerator/blob/master/SnowflakeIDGenerator/SnowflakeIDGenerator.cs/#L247"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/fenase/SnowflakeIDGenerator/blob/master/SnowflakeIDGenerator/SnowflakeIDGenerator.cs/#L241"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Static method to get the next Snowflake ID as a number for a given machine ID using a custom epoch date.</p>
@@ -545,7 +559,7 @@ public static ulong GetCode(ulong machineId, DateTime customEpoch)</code></pre>
 
   <h3 id="SnowflakeID_SnowflakeIDGenerator_GetCodeString" data-uid="SnowflakeID.SnowflakeIDGenerator.GetCodeString">
   GetCodeString()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/fenase/SnowflakeIDGenerator/blob/master/SnowflakeIDGenerator/SnowflakeIDGenerator.cs/#L184"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/fenase/SnowflakeIDGenerator/blob/master/SnowflakeIDGenerator/SnowflakeIDGenerator.cs/#L189"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Gets the next Snowflake ID as a string.</p>
@@ -581,7 +595,7 @@ public static ulong GetCode(ulong machineId, DateTime customEpoch)</code></pre>
 
   <h3 id="SnowflakeID_SnowflakeIDGenerator_GetCodeString_System_Int32_" data-uid="SnowflakeID.SnowflakeIDGenerator.GetCodeString(System.Int32)">
   GetCodeString(int)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/fenase/SnowflakeIDGenerator/blob/master/SnowflakeIDGenerator/SnowflakeIDGenerator.cs/#L281"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/fenase/SnowflakeIDGenerator/blob/master/SnowflakeIDGenerator/SnowflakeIDGenerator.cs/#L266"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Gets the next Snowflake ID as a string for a given machine ID.</p>
@@ -620,7 +634,7 @@ public static ulong GetCode(ulong machineId, DateTime customEpoch)</code></pre>
 
   <h3 id="SnowflakeID_SnowflakeIDGenerator_GetCodeString_System_Int32_System_DateTime_" data-uid="SnowflakeID.SnowflakeIDGenerator.GetCodeString(System.Int32,System.DateTime)">
   GetCodeString(int, DateTime)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/fenase/SnowflakeIDGenerator/blob/master/SnowflakeIDGenerator/SnowflakeIDGenerator.cs/#L289"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/fenase/SnowflakeIDGenerator/blob/master/SnowflakeIDGenerator/SnowflakeIDGenerator.cs/#L274"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Gets the next Snowflake ID as a string for a given machine ID using a custom epoch date.</p>
@@ -662,7 +676,7 @@ public static ulong GetCode(ulong machineId, DateTime customEpoch)</code></pre>
 
   <h3 id="SnowflakeID_SnowflakeIDGenerator_GetCodeString_System_UInt64_" data-uid="SnowflakeID.SnowflakeIDGenerator.GetCodeString(System.UInt64)">
   GetCodeString(ulong)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/fenase/SnowflakeIDGenerator/blob/master/SnowflakeIDGenerator/SnowflakeIDGenerator.cs/#L258"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/fenase/SnowflakeIDGenerator/blob/master/SnowflakeIDGenerator/SnowflakeIDGenerator.cs/#L249"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Gets the next Snowflake ID as a string for a given machine ID.</p>
@@ -702,7 +716,7 @@ public static string GetCodeString(ulong machineId)</code></pre>
 
   <h3 id="SnowflakeID_SnowflakeIDGenerator_GetCodeString_System_UInt64_System_DateTime_" data-uid="SnowflakeID.SnowflakeIDGenerator.GetCodeString(System.UInt64,System.DateTime)">
   GetCodeString(ulong, DateTime)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/fenase/SnowflakeIDGenerator/blob/master/SnowflakeIDGenerator/SnowflakeIDGenerator.cs/#L270"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/fenase/SnowflakeIDGenerator/blob/master/SnowflakeIDGenerator/SnowflakeIDGenerator.cs/#L258"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Gets the next Snowflake ID as a string for a given machine ID using a custom epoch date.</p>
@@ -745,7 +759,7 @@ public static string GetCodeString(ulong machineId, DateTime customEpoch)</code>
 
   <h3 id="SnowflakeID_SnowflakeIDGenerator_GetSnowflake" data-uid="SnowflakeID.SnowflakeIDGenerator.GetSnowflake">
   GetSnowflake()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/fenase/SnowflakeIDGenerator/blob/master/SnowflakeIDGenerator/SnowflakeIDGenerator.cs/#L127"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/fenase/SnowflakeIDGenerator/blob/master/SnowflakeIDGenerator/SnowflakeIDGenerator.cs/#L135"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Generates the next Snowflake ID.</p>
@@ -784,7 +798,7 @@ public static string GetCodeString(ulong machineId, DateTime customEpoch)</code>
 
   <h3 id="SnowflakeID_SnowflakeIDGenerator_GetSnowflake_System_Int32_" data-uid="SnowflakeID.SnowflakeIDGenerator.GetSnowflake(System.Int32)">
   GetSnowflake(int)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/fenase/SnowflakeIDGenerator/blob/master/SnowflakeIDGenerator/SnowflakeIDGenerator.cs/#L220"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/fenase/SnowflakeIDGenerator/blob/master/SnowflakeIDGenerator/SnowflakeIDGenerator.cs/#L217"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Static method to get the next Snowflake ID for a given machine ID.</p>
@@ -823,7 +837,7 @@ public static string GetCodeString(ulong machineId, DateTime customEpoch)</code>
 
   <h3 id="SnowflakeID_SnowflakeIDGenerator_GetSnowflake_System_Int32_System_DateTime_" data-uid="SnowflakeID.SnowflakeIDGenerator.GetSnowflake(System.Int32,System.DateTime)">
   GetSnowflake(int, DateTime)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/fenase/SnowflakeIDGenerator/blob/master/SnowflakeIDGenerator/SnowflakeIDGenerator.cs/#L228"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/fenase/SnowflakeIDGenerator/blob/master/SnowflakeIDGenerator/SnowflakeIDGenerator.cs/#L225"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Static method to get the next Snowflake ID for a given machine ID using a custom epoch date.</p>
@@ -865,7 +879,7 @@ public static string GetCodeString(ulong machineId, DateTime customEpoch)</code>
 
   <h3 id="SnowflakeID_SnowflakeIDGenerator_GetSnowflake_System_UInt64_" data-uid="SnowflakeID.SnowflakeIDGenerator.GetSnowflake(System.UInt64)">
   GetSnowflake(ulong)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/fenase/SnowflakeIDGenerator/blob/master/SnowflakeIDGenerator/SnowflakeIDGenerator.cs/#L197"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/fenase/SnowflakeIDGenerator/blob/master/SnowflakeIDGenerator/SnowflakeIDGenerator.cs/#L199"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Static method to get the next Snowflake ID for a given machine ID.</p>
@@ -908,7 +922,7 @@ public static Snowflake GetSnowflake(ulong machineId)</code></pre>
 
   <h3 id="SnowflakeID_SnowflakeIDGenerator_GetSnowflake_System_UInt64_System_DateTime_" data-uid="SnowflakeID.SnowflakeIDGenerator.GetSnowflake(System.UInt64,System.DateTime)">
   GetSnowflake(ulong, DateTime)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/fenase/SnowflakeIDGenerator/blob/master/SnowflakeIDGenerator/SnowflakeIDGenerator.cs/#L209"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/fenase/SnowflakeIDGenerator/blob/master/SnowflakeIDGenerator/SnowflakeIDGenerator.cs/#L208"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Static method to get the next Snowflake ID for a given machine ID using a custom epoch date.</p>
@@ -951,7 +965,7 @@ public static Snowflake GetSnowflake(ulong machineId, DateTime customEpoch)</cod
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/fenase/SnowflakeIDGenerator/blob/master/SnowflakeIDGenerator/SnowflakeIDGenerator.cs/#L14" class="edit-link">Edit this page</a>
+          <a href="https://github.com/fenase/SnowflakeIDGenerator/blob/master/SnowflakeIDGenerator/SnowflakeIDGenerator.cs/#L20" class="edit-link">Edit this page</a>
         </div>
 
 

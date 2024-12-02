@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
   <head>
     <meta charset="utf-8">
@@ -54,7 +54,7 @@
             <div id="navbar">
               <form class="search" role="search" id="search">
                 <i class="bi bi-search"></i>
-                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
               </form>
             </div>
           </div>
@@ -89,7 +89,7 @@
 
 
   <h1 id="SnowflakeID_Snowflake" data-uid="SnowflakeID.Snowflake" class="text-break">
-Class Snowflake  <a class="header-action link-secondary" title="View source" href="https://github.com/fenase/SnowflakeIDGenerator/blob/master/SnowflakeIDGenerator/Snowflake.cs/#L17"><i class="bi bi-code-slash"></i></a>
+Class Snowflake  <a class="header-action link-secondary" title="View source" href="https://github.com/fenase/SnowflakeIDGenerator/blob/master/SnowflakeIDGenerator/Snowflake.cs/#L23"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -134,19 +134,33 @@ Class Snowflake  <a class="header-action link-secondary" title="View source" hre
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
     </div>
     <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+    <div>
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
     </div>
     <div>
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone">object.MemberwiseClone()</a>
-    </div>
-    <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
     </div>
   </dd></dl>
 
 
 
 
+  <h2 id="SnowflakeID_Snowflake_remarks">Remarks</h2>
+  <div class="markdown level0 remarks"><p>
+  <a href="https://www.nuget.org/packages/SnowflakeIDGenerator">NuGet</a>
+</p>
+<p>
+  <a href="https://github.com/fenase/SnowflakeIDGenerator">Source</a>
+</p>
+<p>
+  <a href="https://fenase.github.io/SnowflakeIDGenerator/api/SnowflakeID.html">API</a>
+</p>
+<p>
+  <a href="https://fenase.github.io/projects/SnowflakeIDGenerator">Site</a>
+</p>
+</div>
 
 
   <h2 class="section" id="constructors">Constructors
@@ -157,7 +171,7 @@ Class Snowflake  <a class="header-action link-secondary" title="View source" hre
 
   <h3 id="SnowflakeID_Snowflake__ctor" data-uid="SnowflakeID.Snowflake.#ctor">
   Snowflake()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/fenase/SnowflakeIDGenerator/blob/master/SnowflakeIDGenerator/Snowflake.cs/#L69"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/fenase/SnowflakeIDGenerator/blob/master/SnowflakeIDGenerator/Snowflake.cs/#L75"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Initializes a new instance of the <a class="xref" href="SnowflakeID.Snowflake.html">Snowflake</a> class using the default epoch (UNIX time 1-1-1970).</p>
@@ -184,7 +198,7 @@ Class Snowflake  <a class="header-action link-secondary" title="View source" hre
 
   <h3 id="SnowflakeID_Snowflake__ctor_System_DateTime_" data-uid="SnowflakeID.Snowflake.#ctor(System.DateTime)">
   Snowflake(DateTime)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/fenase/SnowflakeIDGenerator/blob/master/SnowflakeIDGenerator/Snowflake.cs/#L75"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/fenase/SnowflakeIDGenerator/blob/master/SnowflakeIDGenerator/Snowflake.cs/#L81"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Initializes a new instance of the <a class="xref" href="SnowflakeID.Snowflake.html">Snowflake</a> class using a custom date as epoch.</p>
@@ -220,7 +234,7 @@ Class Snowflake  <a class="header-action link-secondary" title="View source" hre
 
   <h3 id="SnowflakeID_Snowflake_MaxMachineId" data-uid="SnowflakeID.Snowflake.MaxMachineId">
   MaxMachineId
-  <a class="header-action link-secondary" title="View source" href="https://github.com/fenase/SnowflakeIDGenerator/blob/master/SnowflakeIDGenerator/Snowflake.cs/#L29"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/fenase/SnowflakeIDGenerator/blob/master/SnowflakeIDGenerator/Snowflake.cs/#L35"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Max number of machines / servers allowed. Range from 0 to MaxMachineId-1</p>
@@ -251,7 +265,7 @@ Class Snowflake  <a class="header-action link-secondary" title="View source" hre
 
   <h3 id="SnowflakeID_Snowflake_MaxSequence" data-uid="SnowflakeID.Snowflake.MaxSequence">
   MaxSequence
-  <a class="header-action link-secondary" title="View source" href="https://github.com/fenase/SnowflakeIDGenerator/blob/master/SnowflakeIDGenerator/Snowflake.cs/#L24"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/fenase/SnowflakeIDGenerator/blob/master/SnowflakeIDGenerator/Snowflake.cs/#L30"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>The maximum sequence number that can be generated per millisecond.
@@ -283,7 +297,7 @@ When this value is reached, the sequence is reset to 0.</p>
 
   <h3 id="SnowflakeID_Snowflake_MaxTimestamp" data-uid="SnowflakeID.Snowflake.MaxTimestamp">
   MaxTimestamp
-  <a class="header-action link-secondary" title="View source" href="https://github.com/fenase/SnowflakeIDGenerator/blob/master/SnowflakeIDGenerator/Snowflake.cs/#L34"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/fenase/SnowflakeIDGenerator/blob/master/SnowflakeIDGenerator/Snowflake.cs/#L40"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Max number of milliseconds since epoch. Range from 0 to MaxTimestamp-1</p>
@@ -314,7 +328,7 @@ When this value is reached, the sequence is reset to 0.</p>
 
   <h3 id="SnowflakeID_Snowflake_NumberOfDigits" data-uid="SnowflakeID.Snowflake.NumberOfDigits">
   NumberOfDigits
-  <a class="header-action link-secondary" title="View source" href="https://github.com/fenase/SnowflakeIDGenerator/blob/master/SnowflakeIDGenerator/Snowflake.cs/#L63"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/fenase/SnowflakeIDGenerator/blob/master/SnowflakeIDGenerator/Snowflake.cs/#L69"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Total number of digits for the generated code.</p>
@@ -351,7 +365,7 @@ When this value is reached, the sequence is reset to 0.</p>
 
   <h3 id="SnowflakeID_Snowflake_Code" data-uid="SnowflakeID.Snowflake.Code">
   Code
-  <a class="header-action link-secondary" title="View source" href="https://github.com/fenase/SnowflakeIDGenerator/blob/master/SnowflakeIDGenerator/Snowflake.cs/#L252"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/fenase/SnowflakeIDGenerator/blob/master/SnowflakeIDGenerator/Snowflake.cs/#L249"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Gets the Snowflake ID as a string.</p>
@@ -384,7 +398,7 @@ When this value is reached, the sequence is reset to 0.</p>
 
   <h3 id="SnowflakeID_Snowflake_Epoch" data-uid="SnowflakeID.Snowflake.Epoch">
   Epoch
-  <a class="header-action link-secondary" title="View source" href="https://github.com/fenase/SnowflakeIDGenerator/blob/master/SnowflakeIDGenerator/Snowflake.cs/#L55"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/fenase/SnowflakeIDGenerator/blob/master/SnowflakeIDGenerator/Snowflake.cs/#L61"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Gets the current epoch being used.</p>
@@ -417,7 +431,7 @@ When this value is reached, the sequence is reset to 0.</p>
 
   <h3 id="SnowflakeID_Snowflake_Id" data-uid="SnowflakeID.Snowflake.Id">
   Id
-  <a class="header-action link-secondary" title="View source" href="https://github.com/fenase/SnowflakeIDGenerator/blob/master/SnowflakeIDGenerator/Snowflake.cs/#L227"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/fenase/SnowflakeIDGenerator/blob/master/SnowflakeIDGenerator/Snowflake.cs/#L224"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Gets the Snowflake ID.</p>
@@ -451,7 +465,7 @@ public virtual ulong Id { get; }</code></pre>
 
   <h3 id="SnowflakeID_Snowflake_MachineId" data-uid="SnowflakeID.Snowflake.MachineId">
   MachineId
-  <a class="header-action link-secondary" title="View source" href="https://github.com/fenase/SnowflakeIDGenerator/blob/master/SnowflakeIDGenerator/Snowflake.cs/#L92"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/fenase/SnowflakeIDGenerator/blob/master/SnowflakeIDGenerator/Snowflake.cs/#L98"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Gets or sets the machine/server number.</p>
@@ -490,7 +504,7 @@ public ulong MachineId { get; set; }</code></pre>
 
   <h3 id="SnowflakeID_Snowflake_MachineIdInt32" data-uid="SnowflakeID.Snowflake.MachineIdInt32">
   MachineIdInt32
-  <a class="header-action link-secondary" title="View source" href="https://github.com/fenase/SnowflakeIDGenerator/blob/master/SnowflakeIDGenerator/Snowflake.cs/#L115"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/fenase/SnowflakeIDGenerator/blob/master/SnowflakeIDGenerator/Snowflake.cs/#L118"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Gets or sets the machine/server number as an integer.</p>
@@ -528,7 +542,7 @@ public ulong MachineId { get; set; }</code></pre>
 
   <h3 id="SnowflakeID_Snowflake_Sequence" data-uid="SnowflakeID.Snowflake.Sequence">
   Sequence
-  <a class="header-action link-secondary" title="View source" href="https://github.com/fenase/SnowflakeIDGenerator/blob/master/SnowflakeIDGenerator/Snowflake.cs/#L136"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/fenase/SnowflakeIDGenerator/blob/master/SnowflakeIDGenerator/Snowflake.cs/#L139"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Gets or sets the sequence number.</p>
@@ -644,7 +658,7 @@ public ulong Timestamp { get; set; }</code></pre>
 
   <h3 id="SnowflakeID_Snowflake_TimestampInt64" data-uid="SnowflakeID.Snowflake.TimestampInt64">
   TimestampInt64
-  <a class="header-action link-secondary" title="View source" href="https://github.com/fenase/SnowflakeIDGenerator/blob/master/SnowflakeIDGenerator/Snowflake.cs/#L203"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/fenase/SnowflakeIDGenerator/blob/master/SnowflakeIDGenerator/Snowflake.cs/#L200"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Gets or sets the timestamp as the number of milliseconds since the selected epoch.</p>
@@ -682,7 +696,7 @@ public ulong Timestamp { get; set; }</code></pre>
 
   <h3 id="SnowflakeID_Snowflake_UtcDateTime" data-uid="SnowflakeID.Snowflake.UtcDateTime">
   UtcDateTime
-  <a class="header-action link-secondary" title="View source" href="https://github.com/fenase/SnowflakeIDGenerator/blob/master/SnowflakeIDGenerator/Snowflake.cs/#L84"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/fenase/SnowflakeIDGenerator/blob/master/SnowflakeIDGenerator/Snowflake.cs/#L90"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Sets the timeStamp portion of the snowflake based on current time and selected epoch.
@@ -719,7 +733,7 @@ Gets real time of the snowflake based on selected epoch.</p>
 
   <h3 id="SnowflakeID_Snowflake_ChangeEpoch_System_DateTime_" data-uid="SnowflakeID.Snowflake.ChangeEpoch(System.DateTime)">
   ChangeEpoch(DateTime)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/fenase/SnowflakeIDGenerator/blob/master/SnowflakeIDGenerator/Snowflake.cs/#L278"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/fenase/SnowflakeIDGenerator/blob/master/SnowflakeIDGenerator/Snowflake.cs/#L266"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Changes the snowflake's epoch keeping the code intact.
@@ -753,7 +767,7 @@ This will adjust the represented <a class="xref" href="SnowflakeID.Snowflake.htm
 
   <h3 id="SnowflakeID_Snowflake_CompareTo_SnowflakeID_Snowflake_" data-uid="SnowflakeID.Snowflake.CompareTo(SnowflakeID.Snowflake)">
   CompareTo(Snowflake)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/fenase/SnowflakeIDGenerator/blob/master/SnowflakeIDGenerator/Snowflake.cs/#L431"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/fenase/SnowflakeIDGenerator/blob/master/SnowflakeIDGenerator/Snowflake.cs/#L402"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Compares the current Snowflake object with another Snowflake object.</p>
@@ -800,7 +814,7 @@ The return value has these meanings:</p>
 
   <h3 id="SnowflakeID_Snowflake_CompareTo_System_Object_" data-uid="SnowflakeID.Snowflake.CompareTo(System.Object)">
   CompareTo(object)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/fenase/SnowflakeIDGenerator/blob/master/SnowflakeIDGenerator/Snowflake.cs/#L403"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/fenase/SnowflakeIDGenerator/blob/master/SnowflakeIDGenerator/Snowflake.cs/#L374"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Compares the current Snowflake object with another object.</p>
@@ -847,7 +861,7 @@ The return value has these meanings:</p>
 
   <h3 id="SnowflakeID_Snowflake_Equals_SnowflakeID_Snowflake_" data-uid="SnowflakeID.Snowflake.Equals(SnowflakeID.Snowflake)">
   Equals(Snowflake)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/fenase/SnowflakeIDGenerator/blob/master/SnowflakeIDGenerator/Snowflake.cs/#L359"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/fenase/SnowflakeIDGenerator/blob/master/SnowflakeIDGenerator/Snowflake.cs/#L332"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Checks equality between this Snowflake object and another Snowflake object.</p>
@@ -886,7 +900,7 @@ The return value has these meanings:</p>
 
   <h3 id="SnowflakeID_Snowflake_Equals_System_Object_" data-uid="SnowflakeID.Snowflake.Equals(System.Object)">
   Equals(object)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/fenase/SnowflakeIDGenerator/blob/master/SnowflakeIDGenerator/Snowflake.cs/#L346"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/fenase/SnowflakeIDGenerator/blob/master/SnowflakeIDGenerator/Snowflake.cs/#L319"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Checks equality between this Snowflake object and another object.</p>
@@ -925,7 +939,7 @@ The return value has these meanings:</p>
 
   <h3 id="SnowflakeID_Snowflake_FromString_System_String_" data-uid="SnowflakeID.Snowflake.FromString(System.String)">
   FromString(string)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/fenase/SnowflakeIDGenerator/blob/master/SnowflakeIDGenerator/Snowflake.cs/#L537"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/fenase/SnowflakeIDGenerator/blob/master/SnowflakeIDGenerator/Snowflake.cs/#L508"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Creates a <a class="xref" href="SnowflakeID.Snowflake.html">Snowflake</a> instance from the specified string.</p>
@@ -964,7 +978,7 @@ The return value has these meanings:</p>
 
   <h3 id="SnowflakeID_Snowflake_FromUInt64_System_UInt64_" data-uid="SnowflakeID.Snowflake.FromUInt64(System.UInt64)">
   FromUInt64(ulong)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/fenase/SnowflakeIDGenerator/blob/master/SnowflakeIDGenerator/Snowflake.cs/#L555"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/fenase/SnowflakeIDGenerator/blob/master/SnowflakeIDGenerator/Snowflake.cs/#L523"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Creates a <a class="xref" href="SnowflakeID.Snowflake.html">Snowflake</a> instance from the specified unsigned long integer.</p>
@@ -1004,7 +1018,7 @@ public static Snowflake FromUInt64(ulong s)</code></pre>
 
   <h3 id="SnowflakeID_Snowflake_GetHashCode" data-uid="SnowflakeID.Snowflake.GetHashCode">
   GetHashCode()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/fenase/SnowflakeIDGenerator/blob/master/SnowflakeIDGenerator/Snowflake.cs/#L370"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/fenase/SnowflakeIDGenerator/blob/master/SnowflakeIDGenerator/Snowflake.cs/#L341"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Serves as the default hash function. Override of <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode">GetHashCode()</a>.</p>
@@ -1037,7 +1051,7 @@ public static Snowflake FromUInt64(ulong s)</code></pre>
 
   <h3 id="SnowflakeID_Snowflake_Parse_System_String_" data-uid="SnowflakeID.Snowflake.Parse(System.String)">
   Parse(string)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/fenase/SnowflakeIDGenerator/blob/master/SnowflakeIDGenerator/Snowflake.cs/#L289"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/fenase/SnowflakeIDGenerator/blob/master/SnowflakeIDGenerator/Snowflake.cs/#L277"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Creates a SnowflakeId object from a SnowflakeId code.</p>
@@ -1076,7 +1090,7 @@ public static Snowflake FromUInt64(ulong s)</code></pre>
 
   <h3 id="SnowflakeID_Snowflake_Parse_System_String_System_DateTime_" data-uid="SnowflakeID.Snowflake.Parse(System.String,System.DateTime)">
   Parse(string, DateTime)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/fenase/SnowflakeIDGenerator/blob/master/SnowflakeIDGenerator/Snowflake.cs/#L300"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/fenase/SnowflakeIDGenerator/blob/master/SnowflakeIDGenerator/Snowflake.cs/#L285"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Creates a SnowflakeId object from a SnowflakeId code using a custom epoch.</p>
@@ -1118,7 +1132,7 @@ public static Snowflake FromUInt64(ulong s)</code></pre>
 
   <h3 id="SnowflakeID_Snowflake_Parse_System_UInt64_" data-uid="SnowflakeID.Snowflake.Parse(System.UInt64)">
   Parse(ulong)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/fenase/SnowflakeIDGenerator/blob/master/SnowflakeIDGenerator/Snowflake.cs/#L310"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/fenase/SnowflakeIDGenerator/blob/master/SnowflakeIDGenerator/Snowflake.cs/#L292"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Creates a SnowflakeId object from a SnowflakeId code.</p>
@@ -1158,7 +1172,7 @@ public static Snowflake Parse(ulong b)</code></pre>
 
   <h3 id="SnowflakeID_Snowflake_Parse_System_UInt64_System_DateTime_" data-uid="SnowflakeID.Snowflake.Parse(System.UInt64,System.DateTime)">
   Parse(ulong, DateTime)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/fenase/SnowflakeIDGenerator/blob/master/SnowflakeIDGenerator/Snowflake.cs/#L322"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/fenase/SnowflakeIDGenerator/blob/master/SnowflakeIDGenerator/Snowflake.cs/#L301"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Creates a SnowflakeId object from a SnowflakeId code using a custom epoch.</p>
@@ -1201,7 +1215,7 @@ public static Snowflake Parse(ulong b, DateTime customEpoch)</code></pre>
 
   <h3 id="SnowflakeID_Snowflake_RebaseEpoch_System_DateTime_" data-uid="SnowflakeID.Snowflake.RebaseEpoch(System.DateTime)">
   RebaseEpoch(DateTime)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/fenase/SnowflakeIDGenerator/blob/master/SnowflakeIDGenerator/Snowflake.cs/#L268"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/fenase/SnowflakeIDGenerator/blob/master/SnowflakeIDGenerator/Snowflake.cs/#L259"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Rebase the Snowflake to a new epoch CHANGING THE GENERATED CODE but keeping the same date and time.</p>
@@ -1234,7 +1248,7 @@ public static Snowflake Parse(ulong b, DateTime customEpoch)</code></pre>
 
   <h3 id="SnowflakeID_Snowflake_ToString" data-uid="SnowflakeID.Snowflake.ToString">
   ToString()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/fenase/SnowflakeIDGenerator/blob/master/SnowflakeIDGenerator/Snowflake.cs/#L334"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/fenase/SnowflakeIDGenerator/blob/master/SnowflakeIDGenerator/Snowflake.cs/#L310"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Gets the Snowflake ID as a string.</p>
@@ -1267,7 +1281,7 @@ public static Snowflake Parse(ulong b, DateTime customEpoch)</code></pre>
 
   <h3 id="SnowflakeID_Snowflake_ToUInt64" data-uid="SnowflakeID.Snowflake.ToUInt64">
   ToUInt64()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/fenase/SnowflakeIDGenerator/blob/master/SnowflakeIDGenerator/Snowflake.cs/#L580"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/fenase/SnowflakeIDGenerator/blob/master/SnowflakeIDGenerator/Snowflake.cs/#L545"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Converts the current <a class="xref" href="SnowflakeID.Snowflake.html">Snowflake</a> instance to its unsigned long integer representation.</p>
@@ -1305,7 +1319,7 @@ public ulong ToUInt64()</code></pre>
 
   <h3 id="SnowflakeID_Snowflake_op_Equality_SnowflakeID_Snowflake_SnowflakeID_Snowflake_" data-uid="SnowflakeID.Snowflake.op_Equality(SnowflakeID.Snowflake,SnowflakeID.Snowflake)">
   operator ==(Snowflake, Snowflake)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/fenase/SnowflakeIDGenerator/blob/master/SnowflakeIDGenerator/Snowflake.cs/#L446"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/fenase/SnowflakeIDGenerator/blob/master/SnowflakeIDGenerator/Snowflake.cs/#L417"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Determines whether two specified instances of <a class="xref" href="SnowflakeID.Snowflake.html">Snowflake</a> are equal.</p>
@@ -1347,7 +1361,7 @@ public ulong ToUInt64()</code></pre>
 
   <h3 id="SnowflakeID_Snowflake_op_Explicit_System_String__SnowflakeID_Snowflake" data-uid="SnowflakeID.Snowflake.op_Explicit(System.String)~SnowflakeID.Snowflake">
   explicit operator Snowflake(string)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/fenase/SnowflakeIDGenerator/blob/master/SnowflakeIDGenerator/Snowflake.cs/#L530"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/fenase/SnowflakeIDGenerator/blob/master/SnowflakeIDGenerator/Snowflake.cs/#L501"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Converts the specified string to a <a class="xref" href="SnowflakeID.Snowflake.html">Snowflake</a> instance.</p>
@@ -1386,7 +1400,7 @@ public ulong ToUInt64()</code></pre>
 
   <h3 id="SnowflakeID_Snowflake_op_Explicit_System_UInt64__SnowflakeID_Snowflake" data-uid="SnowflakeID.Snowflake.op_Explicit(System.UInt64)~SnowflakeID.Snowflake">
   explicit operator Snowflake(ulong)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/fenase/SnowflakeIDGenerator/blob/master/SnowflakeIDGenerator/Snowflake.cs/#L547"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/fenase/SnowflakeIDGenerator/blob/master/SnowflakeIDGenerator/Snowflake.cs/#L515"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Converts the specified unsigned long integer to a <a class="xref" href="SnowflakeID.Snowflake.html">Snowflake</a> instance.</p>
@@ -1426,7 +1440,7 @@ public static explicit operator Snowflake(ulong s)</code></pre>
 
   <h3 id="SnowflakeID_Snowflake_op_GreaterThan_SnowflakeID_Snowflake_SnowflakeID_Snowflake_" data-uid="SnowflakeID.Snowflake.op_GreaterThan(SnowflakeID.Snowflake,SnowflakeID.Snowflake)">
   operator &gt;(Snowflake, Snowflake)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/fenase/SnowflakeIDGenerator/blob/master/SnowflakeIDGenerator/Snowflake.cs/#L483"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/fenase/SnowflakeIDGenerator/blob/master/SnowflakeIDGenerator/Snowflake.cs/#L454"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Determines whether the first specified <a class="xref" href="SnowflakeID.Snowflake.html">Snowflake</a> is greater than the second specified <a class="xref" href="SnowflakeID.Snowflake.html">Snowflake</a>.</p>
@@ -1474,7 +1488,7 @@ public static explicit operator Snowflake(ulong s)</code></pre>
 
   <h3 id="SnowflakeID_Snowflake_op_GreaterThanOrEqual_SnowflakeID_Snowflake_SnowflakeID_Snowflake_" data-uid="SnowflakeID.Snowflake.op_GreaterThanOrEqual(SnowflakeID.Snowflake,SnowflakeID.Snowflake)">
   operator &gt;=(Snowflake, Snowflake)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/fenase/SnowflakeIDGenerator/blob/master/SnowflakeIDGenerator/Snowflake.cs/#L509"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/fenase/SnowflakeIDGenerator/blob/master/SnowflakeIDGenerator/Snowflake.cs/#L480"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Determines whether the first specified <a class="xref" href="SnowflakeID.Snowflake.html">Snowflake</a> is greater than or equal to the second specified <a class="xref" href="SnowflakeID.Snowflake.html">Snowflake</a>.</p>
@@ -1522,7 +1536,7 @@ public static explicit operator Snowflake(ulong s)</code></pre>
 
   <h3 id="SnowflakeID_Snowflake_op_Implicit_SnowflakeID_Snowflake__System_String" data-uid="SnowflakeID.Snowflake.op_Implicit(SnowflakeID.Snowflake)~System.String">
   implicit operator string(Snowflake)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/fenase/SnowflakeIDGenerator/blob/master/SnowflakeIDGenerator/Snowflake.cs/#L566"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/fenase/SnowflakeIDGenerator/blob/master/SnowflakeIDGenerator/Snowflake.cs/#L531"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Converts the specified <a class="xref" href="SnowflakeID.Snowflake.html">Snowflake</a> instance to its string representation.</p>
@@ -1561,7 +1575,7 @@ public static explicit operator Snowflake(ulong s)</code></pre>
 
   <h3 id="SnowflakeID_Snowflake_op_Implicit_SnowflakeID_Snowflake__System_UInt64" data-uid="SnowflakeID.Snowflake.op_Implicit(SnowflakeID.Snowflake)~System.UInt64">
   implicit operator ulong(Snowflake)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/fenase/SnowflakeIDGenerator/blob/master/SnowflakeIDGenerator/Snowflake.cs/#L573"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/fenase/SnowflakeIDGenerator/blob/master/SnowflakeIDGenerator/Snowflake.cs/#L538"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Converts the specified <a class="xref" href="SnowflakeID.Snowflake.html">Snowflake</a> instance to its unsigned long integer representation.</p>
@@ -1601,7 +1615,7 @@ public static implicit operator ulong(Snowflake s)</code></pre>
 
   <h3 id="SnowflakeID_Snowflake_op_Inequality_SnowflakeID_Snowflake_SnowflakeID_Snowflake_" data-uid="SnowflakeID.Snowflake.op_Inequality(SnowflakeID.Snowflake,SnowflakeID.Snowflake)">
   operator !=(Snowflake, Snowflake)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/fenase/SnowflakeIDGenerator/blob/master/SnowflakeIDGenerator/Snowflake.cs/#L470"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/fenase/SnowflakeIDGenerator/blob/master/SnowflakeIDGenerator/Snowflake.cs/#L441"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Determines whether two specified instances of <a class="xref" href="SnowflakeID.Snowflake.html">Snowflake</a> are not equal.</p>
@@ -1643,7 +1657,7 @@ public static implicit operator ulong(Snowflake s)</code></pre>
 
   <h3 id="SnowflakeID_Snowflake_op_LessThan_SnowflakeID_Snowflake_SnowflakeID_Snowflake_" data-uid="SnowflakeID.Snowflake.op_LessThan(SnowflakeID.Snowflake,SnowflakeID.Snowflake)">
   operator &lt;(Snowflake, Snowflake)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/fenase/SnowflakeIDGenerator/blob/master/SnowflakeIDGenerator/Snowflake.cs/#L496"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/fenase/SnowflakeIDGenerator/blob/master/SnowflakeIDGenerator/Snowflake.cs/#L467"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Determines whether the first specified <a class="xref" href="SnowflakeID.Snowflake.html">Snowflake</a> is less than the second specified <a class="xref" href="SnowflakeID.Snowflake.html">Snowflake</a>.</p>
@@ -1691,7 +1705,7 @@ public static implicit operator ulong(Snowflake s)</code></pre>
 
   <h3 id="SnowflakeID_Snowflake_op_LessThanOrEqual_SnowflakeID_Snowflake_SnowflakeID_Snowflake_" data-uid="SnowflakeID.Snowflake.op_LessThanOrEqual(SnowflakeID.Snowflake,SnowflakeID.Snowflake)">
   operator &lt;=(Snowflake, Snowflake)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/fenase/SnowflakeIDGenerator/blob/master/SnowflakeIDGenerator/Snowflake.cs/#L522"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/fenase/SnowflakeIDGenerator/blob/master/SnowflakeIDGenerator/Snowflake.cs/#L493"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Determines whether the first specified <a class="xref" href="SnowflakeID.Snowflake.html">Snowflake</a> is less than or equal to the second specified <a class="xref" href="SnowflakeID.Snowflake.html">Snowflake</a>.</p>
@@ -1739,7 +1753,7 @@ public static implicit operator ulong(Snowflake s)</code></pre>
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/fenase/SnowflakeIDGenerator/blob/master/SnowflakeIDGenerator/Snowflake.cs/#L17" class="edit-link">Edit this page</a>
+          <a href="https://github.com/fenase/SnowflakeIDGenerator/blob/master/SnowflakeIDGenerator/Snowflake.cs/#L23" class="edit-link">Edit this page</a>
         </div>
 
 
