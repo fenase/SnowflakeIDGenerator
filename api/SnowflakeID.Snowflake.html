@@ -1281,7 +1281,7 @@ public static Snowflake Parse(ulong b, DateTime customEpoch)</code></pre>
 
   <h3 id="SnowflakeID_Snowflake_ToUInt64" data-uid="SnowflakeID.Snowflake.ToUInt64">
   ToUInt64()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/fenase/SnowflakeIDGenerator/blob/master/SnowflakeIDGenerator/Snowflake.cs/#L545"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/fenase/SnowflakeIDGenerator/blob/master/SnowflakeIDGenerator/Snowflake.cs/#L555"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Converts the current <a class="xref" href="SnowflakeID.Snowflake.html">Snowflake</a> instance to its unsigned long integer representation.</p>
@@ -1307,6 +1307,11 @@ public ulong ToUInt64()</code></pre>
 
 
 
+  <h4 class="section" id="SnowflakeID_Snowflake_ToUInt64_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>If a loosely typed language (or a language that doesn't differentiate between number types, i.e.: Typescript)
+is part of your workflow, use <a class="xref" href="SnowflakeID.Snowflake.html#SnowflakeID_Snowflake_ToString">ToString()</a> to avoid issues regarding
+floating-point underflow and rounding.</p>
+</div>
 
 
 
@@ -1575,7 +1580,7 @@ public static explicit operator Snowflake(ulong s)</code></pre>
 
   <h3 id="SnowflakeID_Snowflake_op_Implicit_SnowflakeID_Snowflake__System_UInt64" data-uid="SnowflakeID.Snowflake.op_Implicit(SnowflakeID.Snowflake)~System.UInt64">
   implicit operator ulong(Snowflake)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/fenase/SnowflakeIDGenerator/blob/master/SnowflakeIDGenerator/Snowflake.cs/#L538"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/fenase/SnowflakeIDGenerator/blob/master/SnowflakeIDGenerator/Snowflake.cs/#L543"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Converts the specified <a class="xref" href="SnowflakeID.Snowflake.html">Snowflake</a> instance to its unsigned long integer representation.</p>
@@ -1607,6 +1612,11 @@ public static implicit operator ulong(Snowflake s)</code></pre>
 
 
 
+  <h4 class="section" id="SnowflakeID_Snowflake_op_Implicit_SnowflakeID_Snowflake__System_UInt64_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>If a loosely typed language (or a language that doesn't differentiate between number types, i.e.: Typescript)
+is part of your workflow, use the string representation to avoid issues regarding
+floating-point underflow and rounding.</p>
+</div>
 
 
 
