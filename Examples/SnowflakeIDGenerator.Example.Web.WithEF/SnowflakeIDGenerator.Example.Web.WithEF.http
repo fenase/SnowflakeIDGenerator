@@ -1,0 +1,14 @@
+﻿@SnowflakeIDGenerator.Example.Web.WithEF_HostAddress = https://localhost:7059
+
+POST {{SnowflakeIDGenerator.Example.Web.WithEF_HostAddress}}/weatherforecast/create
+
+###
+
+@id=07272337923964403712
+GET {{SnowflakeIDGenerator.Example.Web.WithEF_HostAddress}}/weatherforecast/get/{{id}}
+
+###
+
+GET {{SnowflakeIDGenerator.Example.Web.WithEF_HostAddress}}/weatherforecast/getAll
+
+###
