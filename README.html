@@ -166,6 +166,11 @@ from which the timestamps are derived for the current date.</p>
 <li>Call <code>SnowflakeIDGenerator.GetCode(machineId)</code> to get an Id in number (ulong) format</li>
 <li>Call <code>SnowflakeIDGenerator.GetCodeString(machineId)</code> to get an Id in string format</li>
 </ol>
+<blockquote>
+<p>If the generated code is going to be used somewhere without a well-defined ulong type (example, Typescript),
+it is recommended to use the string representation, because those languages usually represent numbers as
+floating-point numbers and must round the code since they can't represent every integer beyond certain value.</p>
+</blockquote>
 <h3 id="using-a-non-standard-date-as-epoch">Using a non-standard date as epoch</h3>
 <p><em>version 1.1.2023 and up</em></p>
 <p>The first component of the codes is the amount of milliseconds elapsed since a set point in time, called epoch.
