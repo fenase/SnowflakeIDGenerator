@@ -48,7 +48,11 @@
           "relative_path": "api/SnowflakeID.Exceptions.SnowflakesUsingDifferentEpochsException.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SnowflakeID.Exceptions.SnowflakesUsingDifferentEpochsException",
+      "Summary": "<p sourcefile=\"api/SnowflakeID.Exceptions.SnowflakesUsingDifferentEpochsException.yml\" sourcestartlinenumber=\"1\">Exception thrown when trying to compare IDs using different epochs.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -58,7 +62,11 @@
           "relative_path": "api/SnowflakeID.Exceptions.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SnowflakeID.Exceptions",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -68,7 +76,11 @@
           "relative_path": "api/SnowflakeID.Helpers.GlobalConstants.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SnowflakeID.Helpers.GlobalConstants",
+      "Summary": "<p sourcefile=\"api/SnowflakeID.Helpers.GlobalConstants.yml\" sourcestartlinenumber=\"1\">Global constants used throughout the Snowflake ID generator.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -78,7 +90,11 @@
           "relative_path": "api/SnowflakeID.Helpers.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SnowflakeID.Helpers",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -88,7 +104,11 @@
           "relative_path": "api/SnowflakeID.ISnowflakeIDGenerator.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SnowflakeID.ISnowflakeIDGenerator",
+      "Summary": "<p sourcefile=\"api/SnowflakeID.ISnowflakeIDGenerator.yml\" sourcestartlinenumber=\"1\">Interface for the generator class for <xref href=\"SnowflakeID.Snowflake\" data-throw-if-not-resolved=\"false\"></xref>.</p>\n<p>This keeps track of time, machine number, and sequence.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -98,7 +118,11 @@
           "relative_path": "api/SnowflakeID.ISnowflakeIDGeneratorClsCompliant.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SnowflakeID.ISnowflakeIDGeneratorClsCompliant",
+      "Summary": "<p sourcefile=\"api/SnowflakeID.ISnowflakeIDGeneratorClsCompliant.yml\" sourcestartlinenumber=\"1\">Interface for the generator class for <xref href=\"SnowflakeID.Snowflake\" data-throw-if-not-resolved=\"false\"></xref>.</p>\n<p>This keeps track of time, machine number and sequence.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -108,7 +132,11 @@
           "relative_path": "api/SnowflakeID.Snowflake.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SnowflakeID.Snowflake",
+      "Summary": "<p sourcefile=\"api/SnowflakeID.Snowflake.yml\" sourcestartlinenumber=\"1\">This class represents the Snowflake object.\n<a href=\"https://en.wikipedia.org/wiki/Snowflake_ID\">Wikipedia article about SnowflakeId</a></p>\n"
     },
     {
       "type": "ManagedReference",
@@ -118,7 +146,11 @@
           "relative_path": "api/SnowflakeID.SnowflakeIDGenerator.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SnowflakeID.SnowflakeIDGenerator",
+      "Summary": "<p sourcefile=\"api/SnowflakeID.SnowflakeIDGenerator.yml\" sourcestartlinenumber=\"1\">Generator class for <xref href=\"SnowflakeID.Snowflake\" data-throw-if-not-resolved=\"false\"></xref>.</p>\n<p>This keeps track of time, machine number and sequence.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -128,7 +160,11 @@
           "relative_path": "api/SnowflakeID.SnowflakeIdGeneratorOptions.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SnowflakeID.SnowflakeIdGeneratorOptions",
+      "Summary": "<p sourcefile=\"api/SnowflakeID.SnowflakeIdGeneratorOptions.yml\" sourcestartlinenumber=\"1\">Option object for <xref href=\"SnowflakeID.SnowflakeIDGenerator\" data-throw-if-not-resolved=\"false\"></xref>.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -138,7 +174,11 @@
           "relative_path": "api/SnowflakeID.SnowflakeIdGeneratorServiceCollectionExtensions.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SnowflakeID.SnowflakeIdGeneratorServiceCollectionExtensions",
+      "Summary": "<p sourcefile=\"api/SnowflakeID.SnowflakeIdGeneratorServiceCollectionExtensions.yml\" sourcestartlinenumber=\"1\">Extension methods to register <xref href=\"SnowflakeID.SnowflakeIDGenerator\" data-throw-if-not-resolved=\"false\"></xref> services.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -148,7 +188,11 @@
           "relative_path": "api/SnowflakeID.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SnowflakeID",
+      "Summary": null
     },
     {
       "type": "Toc",
