@@ -16,7 +16,7 @@
 
 	<ItemGroup Condition="'$(TargetFramework)' != 'net40' ">
 		<PackageReference Include="NUnit" Version="4.3.2" />
-		<PackageReference Include="NUnit.Analyzers" Version="4.6.0">
+		<PackageReference Include="NUnit.Analyzers" Version="4.7.0">
 			<PrivateAssets>all</PrivateAssets>
 			<IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
 		</PackageReference>
@@ -52,7 +52,7 @@
 	</ItemGroup>
 
 	<ItemGroup Condition="'$(TargetFramework)' == 'net9.0' OR '$(TargetFramework)' == 'net8.0' OR '$(TargetFramework)' == 'net48'">
-		<PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="9.0.2" />
+		<PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="9.0.3" />
 	</ItemGroup>
 
 	<ItemGroup Condition="'$(TargetFramework)' == 'net6.0'">
