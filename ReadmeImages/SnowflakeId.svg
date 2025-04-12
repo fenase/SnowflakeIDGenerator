@@ -2,13 +2,13 @@
   <!-- Define arrowhead marker for the arrow lines -->
   <defs>
     <marker id="arrowheadRight" markerWidth="6" markerHeight="6" refX="0" refY="3" orient="auto">
-      <polygon points="0 0, 6 3, 0 6" fill="black"/>
+      <polygon points="0 0, 6 3, 0 6" fill="black" />
     </marker>
     <marker id="arrowheadLeft" markerWidth="6" markerHeight="6" refX="6" refY="3" orient="auto">
-      <polygon points="0 3, 6 0, 6 6" fill="black"/>
+      <polygon points="0 3, 6 0, 6 6" fill="black" />
     </marker>
   </defs>
-  
+
   <style>
     .box { stroke: black; stroke-width: 1; }
     .timestamp { fill: #e0f7fa; }
@@ -27,28 +27,27 @@
       fill: black;
       text-anchor: middle;
     }
-	  .section-box {
-	    fill: white;
-	  }
+    .section-box {
+      fill: white;
+    }
   </style>
-  
-    
+
+
   <!-- Section Indicator Arrows (drawn as lines with arrowhead markers) with text -->
   <!-- Timestamp: spans x=0 to 630 -->
   <line x1="6" y1="15" x2="250" y2="15" stroke="black" stroke-width="1" marker-start="url(#arrowheadLeft)" />
   <text x="315" y="20" class="section-label">Timestamp (42 bits)</text>
-  <line x1="380" y1="15" x2="624" y2="15" stroke="black" stroke-width="1"  marker-end="url(#arrowheadRight)" />
+  <line x1="380" y1="15" x2="624" y2="15" stroke="black" stroke-width="1" marker-end="url(#arrowheadRight)" />
   <!-- Machine ID: spans x=630 to 780 -->
   <line x1="636" y1="15" x2="642" y2="15" stroke="black" stroke-width="1" marker-start="url(#arrowheadLeft)" />
   <text x="705" y="20" class="section-label">Machine ID (10 bits)</text>
-  <line x1="768" y1="15" x2="774" y2="15" stroke="black" stroke-width="1"  marker-end="url(#arrowheadRight)" />
+  <line x1="768" y1="15" x2="774" y2="15" stroke="black" stroke-width="1" marker-end="url(#arrowheadRight)" />
   <!-- Sequence: spans x=780 to 960 -->
   <line x1="786" y1="15" x2="810" y2="15" stroke="black" stroke-width="1" marker-start="url(#arrowheadLeft)" />
   <text x="870" y="20" class="section-label">Sequence (12 bits)</text>
-  <line x1="930" y1="15" x2="954" y2="15" stroke="black" stroke-width="1"  marker-end="url(#arrowheadRight)"/>
-  
-  
-  
+  <line x1="930" y1="15" x2="954" y2="15" stroke="black" stroke-width="1" marker-end="url(#arrowheadRight)" />
+
+
   <!-- Timestamp Group (42 boxes) -->
   <g id="timestamp">
     <rect class="box timestamp" x="0" y="40" width="15" height="15"/><text class="bit-text" x="7.5" y="47.5">t</text>
@@ -94,7 +93,7 @@
     <rect class="box timestamp" x="600" y="40" width="15" height="15"/><text class="bit-text" x="607.5" y="47.5">t</text>
     <rect class="box timestamp" x="615" y="40" width="15" height="15"/><text class="bit-text" x="622.5" y="47.5">t</text>
   </g>
-  
+
   <!-- Machine ID Group (10 boxes) -->
   <g id="machine">
     <rect class="box machine" x="630" y="40" width="15" height="15"/><text class="bit-text" x="637.5" y="47.5">m</text>
@@ -108,7 +107,7 @@
     <rect class="box machine" x="750" y="40" width="15" height="15"/><text class="bit-text" x="757.5" y="47.5">m</text>
     <rect class="box machine" x="765" y="40" width="15" height="15"/><text class="bit-text" x="772.5" y="47.5">m</text>
   </g>
-  
+
   <!-- Sequence Group (12 boxes) -->
   <g id="sequence">
     <rect class="box sequence" x="780" y="40" width="15" height="15"/><text class="bit-text" x="787.5" y="47.5">s</text>
