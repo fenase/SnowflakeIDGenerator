@@ -4,8 +4,8 @@
     <marker id="arrowheadRight" markerWidth="6" markerHeight="6" refX="0" refY="3" orient="auto">
       <polygon points="0 0, 6 3, 0 6" fill="black"/>
     </marker>
-    <marker id="arrowheadLeft" markerWidth="6" markerHeight="6" refX="0" refY="3" orient="auto">
-      <polygon points="-6 3, 0 0, 0 6" fill="black"/>
+    <marker id="arrowheadLeft" markerWidth="6" markerHeight="6" refX="6" refY="3" orient="auto">
+      <polygon points="0 3, 6 0, 6 6" fill="black"/>
     </marker>
   </defs>
   
@@ -41,7 +41,7 @@
   <!-- Machine ID: spans x=630 to 780 -->
   <line x1="636" y1="15" x2="642" y2="15" stroke="black" stroke-width="1" marker-start="url(#arrowheadLeft)" />
   <text x="705" y="20" class="section-label">Machine ID (10 bits)</text>
-  <line x1="770" y1="15" x2="774" y2="15" stroke="black" stroke-width="1"  marker-end="url(#arrowheadRight)" />
+  <line x1="768" y1="15" x2="774" y2="15" stroke="black" stroke-width="1"  marker-end="url(#arrowheadRight)" />
   <!-- Sequence: spans x=780 to 960 -->
   <line x1="786" y1="15" x2="810" y2="15" stroke="black" stroke-width="1" marker-start="url(#arrowheadLeft)" />
   <text x="870" y="20" class="section-label">Sequence (12 bits)</text>
