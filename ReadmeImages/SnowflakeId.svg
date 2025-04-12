@@ -2,7 +2,6 @@
 <svg
    width="992"
    height="128"
-   style="background-color: white;"
    viewBox="-16 0 992 128"
    version="1.1"
    id="svg70"
@@ -25,7 +24,7 @@
        orient="auto">
       <polygon
          points="0 0, 6 3, 0 6"
-         fill="black"
+         class="arrow-color"
          id="polygon1" />
     </marker>
     <marker
@@ -37,7 +36,7 @@
        orient="auto">
       <polygon
          points="0 3, 6 0, 6 6"
-         fill="black"
+         class="arrow-color"
          id="polygon2" />
     </marker>
   </defs>
@@ -63,6 +62,19 @@
     .section-box {
       fill: white;
     }
+    .arrow-color {
+      fill: black;
+      stroke: black;
+    }
+    @media (prefers-color-scheme: dark) {
+      .section-label {
+        fill: white;
+      }
+      .arrow-color {
+        fill: white;
+        stroke: white;
+      }
+    }
   </style>
   <!-- Section Indicator Arrows (drawn as lines with arrowhead markers) with text -->
   <!-- Timestamp: spans x=0 to 630 -->
@@ -71,7 +83,7 @@
      y1="36"
      x2="624"
      y2="36"
-     stroke="#000000"
+     class="arrow-color"
      stroke-width="1"
      marker-start="url(#arrowheadLeft)"
      marker-end="url(#arrowheadRight)"
@@ -84,17 +96,17 @@
   <!-- Machine ID: spans x=630 to 780 -->
   <line
      x1="636"
-     y1="77.099838"
+     y1="83"
      x2="774"
-     y2="77.099838"
-     stroke="#000000"
+     y2="83"
+     class="arrow-color"
      stroke-width="1"
      marker-start="url(#arrowheadLeft)"
      marker-end="url(#arrowheadRight)"
      id="line4" />
   <text
      x="705"
-     y="103.06602"
+     y="108"
      class="section-label"
      id="text4">Machine ID (10 bits)</text>
   <!-- Sequence: spans x=780 to 960 -->
@@ -103,7 +115,7 @@
      y1="36"
      x2="954"
      y2="36"
-     stroke="#000000"
+     class="arrow-color"
      stroke-width="1"
      marker-start="url(#arrowheadLeft)"
      marker-end="url(#arrowheadRight)"
