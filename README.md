@@ -34,9 +34,8 @@ The other components refer to the current date and time, in order not to keep tr
 (for example, a sequence in a database),
 and a short (in memory) sequence, to allow the generation of several codes in a short amount of time.
 
-| ![SnowflakeId components](https://raw.githubusercontent.com/fenase/SnowflakeIDGenerator/master/ReadmeImages/SnowflakeId-Wikipedia.png) |
+| ![SnowflakeId components](https://raw.githubusercontent.com/fenase/SnowflakeIDGenerator/master/ReadmeImages/SnowflakeId.svg) |
 |:--| 
-| *Image Source & credit available in [wikimedia](https://commons.wikimedia.org/wiki/File:Snowflake-identifier.png). "instance" in this image replaces machineId in the library / package* |
 
 
 # Usage

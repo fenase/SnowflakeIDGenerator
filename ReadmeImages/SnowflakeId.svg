@@ -1,0 +1,128 @@
+<svg width="992" height="64" viewBox="-16 0 992 64" xmlns="http://www.w3.org/2000/svg">
+  <!-- Define arrowhead marker for the arrow lines -->
+  <defs>
+    <marker id="arrowheadRight" markerWidth="6" markerHeight="6" refX="0" refY="3" orient="auto">
+      <polygon points="0 0, 6 3, 0 6" fill="black"/>
+    </marker>
+    <marker id="arrowheadLeft" markerWidth="6" markerHeight="6" refX="0" refY="3" orient="auto">
+      <polygon points="-6 3, 0 0, 0 6" fill="black"/>
+    </marker>
+  </defs>
+  
+  <style>
+    .box { stroke: black; stroke-width: 1; }
+    .timestamp { fill: #e0f7fa; }
+    .machine { fill: #ffe0b2; }
+    .sequence { fill: #dcedc8; }
+    .bit-text {
+      font-family: Verdana;
+      font-size: 10px;
+      fill: black;
+      text-anchor: middle;
+      dominant-baseline: middle;
+    }
+    .section-label {
+      font-family: Verdana;
+      font-size: 12px;
+      fill: black;
+      text-anchor: middle;
+    }
+	  .section-box {
+	    fill: white;
+	  }
+  </style>
+  
+    
+  <!-- Section Indicator Arrows (drawn as lines with arrowhead markers) with text -->
+  <!-- Timestamp: spans x=0 to 630 -->
+  <line x1="6" y1="15" x2="250" y2="15" stroke="black" stroke-width="1" marker-start="url(#arrowheadLeft)" />
+  <text x="315" y="20" class="section-label">Timestamp (42 bits)</text>
+  <line x1="380" y1="15" x2="624" y2="15" stroke="black" stroke-width="1"  marker-end="url(#arrowheadRight)" />
+  <!-- Machine ID: spans x=630 to 780 -->
+  <line x1="636" y1="15" x2="642" y2="15" stroke="black" stroke-width="1" marker-start="url(#arrowheadLeft)" />
+  <text x="705" y="20" class="section-label">Machine ID (10 bits)</text>
+  <line x1="770" y1="15" x2="774" y2="15" stroke="black" stroke-width="1"  marker-end="url(#arrowheadRight)" />
+  <!-- Sequence: spans x=780 to 960 -->
+  <line x1="786" y1="15" x2="810" y2="15" stroke="black" stroke-width="1" marker-start="url(#arrowheadLeft)" />
+  <text x="870" y="20" class="section-label">Sequence (12 bits)</text>
+  <line x1="930" y1="15" x2="954" y2="15" stroke="black" stroke-width="1"  marker-end="url(#arrowheadRight)"/>
+  
+  
+  
+  <!-- Timestamp Group (42 boxes) -->
+  <g id="timestamp">
+    <rect class="box timestamp" x="0" y="40" width="15" height="15"/><text class="bit-text" x="7.5" y="47.5">t</text>
+    <rect class="box timestamp" x="15" y="40" width="15" height="15"/><text class="bit-text" x="22.5" y="47.5">t</text>
+    <rect class="box timestamp" x="30" y="40" width="15" height="15"/><text class="bit-text" x="37.5" y="47.5">t</text>
+    <rect class="box timestamp" x="45" y="40" width="15" height="15"/><text class="bit-text" x="52.5" y="47.5">t</text>
+    <rect class="box timestamp" x="60" y="40" width="15" height="15"/><text class="bit-text" x="67.5" y="47.5">t</text>
+    <rect class="box timestamp" x="75" y="40" width="15" height="15"/><text class="bit-text" x="82.5" y="47.5">t</text>
+    <rect class="box timestamp" x="90" y="40" width="15" height="15"/><text class="bit-text" x="97.5" y="47.5">t</text>
+    <rect class="box timestamp" x="105" y="40" width="15" height="15"/><text class="bit-text" x="112.5" y="47.5">t</text>
+    <rect class="box timestamp" x="120" y="40" width="15" height="15"/><text class="bit-text" x="127.5" y="47.5">t</text>
+    <rect class="box timestamp" x="135" y="40" width="15" height="15"/><text class="bit-text" x="142.5" y="47.5">t</text>
+    <rect class="box timestamp" x="150" y="40" width="15" height="15"/><text class="bit-text" x="157.5" y="47.5">t</text>
+    <rect class="box timestamp" x="165" y="40" width="15" height="15"/><text class="bit-text" x="172.5" y="47.5">t</text>
+    <rect class="box timestamp" x="180" y="40" width="15" height="15"/><text class="bit-text" x="187.5" y="47.5">t</text>
+    <rect class="box timestamp" x="195" y="40" width="15" height="15"/><text class="bit-text" x="202.5" y="47.5">t</text>
+    <rect class="box timestamp" x="210" y="40" width="15" height="15"/><text class="bit-text" x="217.5" y="47.5">t</text>
+    <rect class="box timestamp" x="225" y="40" width="15" height="15"/><text class="bit-text" x="232.5" y="47.5">t</text>
+    <rect class="box timestamp" x="240" y="40" width="15" height="15"/><text class="bit-text" x="247.5" y="47.5">t</text>
+    <rect class="box timestamp" x="255" y="40" width="15" height="15"/><text class="bit-text" x="262.5" y="47.5">t</text>
+    <rect class="box timestamp" x="270" y="40" width="15" height="15"/><text class="bit-text" x="277.5" y="47.5">t</text>
+    <rect class="box timestamp" x="285" y="40" width="15" height="15"/><text class="bit-text" x="292.5" y="47.5">t</text>
+    <rect class="box timestamp" x="300" y="40" width="15" height="15"/><text class="bit-text" x="307.5" y="47.5">t</text>
+    <rect class="box timestamp" x="315" y="40" width="15" height="15"/><text class="bit-text" x="322.5" y="47.5">t</text>
+    <rect class="box timestamp" x="330" y="40" width="15" height="15"/><text class="bit-text" x="337.5" y="47.5">t</text>
+    <rect class="box timestamp" x="345" y="40" width="15" height="15"/><text class="bit-text" x="352.5" y="47.5">t</text>
+    <rect class="box timestamp" x="360" y="40" width="15" height="15"/><text class="bit-text" x="367.5" y="47.5">t</text>
+    <rect class="box timestamp" x="375" y="40" width="15" height="15"/><text class="bit-text" x="382.5" y="47.5">t</text>
+    <rect class="box timestamp" x="390" y="40" width="15" height="15"/><text class="bit-text" x="397.5" y="47.5">t</text>
+    <rect class="box timestamp" x="405" y="40" width="15" height="15"/><text class="bit-text" x="412.5" y="47.5">t</text>
+    <rect class="box timestamp" x="420" y="40" width="15" height="15"/><text class="bit-text" x="427.5" y="47.5">t</text>
+    <rect class="box timestamp" x="435" y="40" width="15" height="15"/><text class="bit-text" x="442.5" y="47.5">t</text>
+    <rect class="box timestamp" x="450" y="40" width="15" height="15"/><text class="bit-text" x="457.5" y="47.5">t</text>
+    <rect class="box timestamp" x="465" y="40" width="15" height="15"/><text class="bit-text" x="472.5" y="47.5">t</text>
+    <rect class="box timestamp" x="480" y="40" width="15" height="15"/><text class="bit-text" x="487.5" y="47.5">t</text>
+    <rect class="box timestamp" x="495" y="40" width="15" height="15"/><text class="bit-text" x="502.5" y="47.5">t</text>
+    <rect class="box timestamp" x="510" y="40" width="15" height="15"/><text class="bit-text" x="517.5" y="47.5">t</text>
+    <rect class="box timestamp" x="525" y="40" width="15" height="15"/><text class="bit-text" x="532.5" y="47.5">t</text>
+    <rect class="box timestamp" x="540" y="40" width="15" height="15"/><text class="bit-text" x="547.5" y="47.5">t</text>
+    <rect class="box timestamp" x="555" y="40" width="15" height="15"/><text class="bit-text" x="562.5" y="47.5">t</text>
+    <rect class="box timestamp" x="570" y="40" width="15" height="15"/><text class="bit-text" x="577.5" y="47.5">t</text>
+    <rect class="box timestamp" x="585" y="40" width="15" height="15"/><text class="bit-text" x="592.5" y="47.5">t</text>
+    <rect class="box timestamp" x="600" y="40" width="15" height="15"/><text class="bit-text" x="607.5" y="47.5">t</text>
+    <rect class="box timestamp" x="615" y="40" width="15" height="15"/><text class="bit-text" x="622.5" y="47.5">t</text>
+  </g>
+  
+  <!-- Machine ID Group (10 boxes) -->
+  <g id="machine">
+    <rect class="box machine" x="630" y="40" width="15" height="15"/><text class="bit-text" x="637.5" y="47.5">m</text>
+    <rect class="box machine" x="645" y="40" width="15" height="15"/><text class="bit-text" x="652.5" y="47.5">m</text>
+    <rect class="box machine" x="660" y="40" width="15" height="15"/><text class="bit-text" x="667.5" y="47.5">m</text>
+    <rect class="box machine" x="675" y="40" width="15" height="15"/><text class="bit-text" x="682.5" y="47.5">m</text>
+    <rect class="box machine" x="690" y="40" width="15" height="15"/><text class="bit-text" x="697.5" y="47.5">m</text>
+    <rect class="box machine" x="705" y="40" width="15" height="15"/><text class="bit-text" x="712.5" y="47.5">m</text>
+    <rect class="box machine" x="720" y="40" width="15" height="15"/><text class="bit-text" x="727.5" y="47.5">m</text>
+    <rect class="box machine" x="735" y="40" width="15" height="15"/><text class="bit-text" x="742.5" y="47.5">m</text>
+    <rect class="box machine" x="750" y="40" width="15" height="15"/><text class="bit-text" x="757.5" y="47.5">m</text>
+    <rect class="box machine" x="765" y="40" width="15" height="15"/><text class="bit-text" x="772.5" y="47.5">m</text>
+  </g>
+  
+  <!-- Sequence Group (12 boxes) -->
+  <g id="sequence">
+    <rect class="box sequence" x="780" y="40" width="15" height="15"/><text class="bit-text" x="787.5" y="47.5">s</text>
+    <rect class="box sequence" x="795" y="40" width="15" height="15"/><text class="bit-text" x="802.5" y="47.5">s</text>
+    <rect class="box sequence" x="810" y="40" width="15" height="15"/><text class="bit-text" x="817.5" y="47.5">s</text>
+    <rect class="box sequence" x="825" y="40" width="15" height="15"/><text class="bit-text" x="832.5" y="47.5">s</text>
+    <rect class="box sequence" x="840" y="40" width="15" height="15"/><text class="bit-text" x="847.5" y="47.5">s</text>
+    <rect class="box sequence" x="855" y="40" width="15" height="15"/><text class="bit-text" x="862.5" y="47.5">s</text>
+    <rect class="box sequence" x="870" y="40" width="15" height="15"/><text class="bit-text" x="877.5" y="47.5">s</text>
+    <rect class="box sequence" x="885" y="40" width="15" height="15"/><text class="bit-text" x="892.5" y="47.5">s</text>
+    <rect class="box sequence" x="900" y="40" width="15" height="15"/><text class="bit-text" x="907.5" y="47.5">s</text>
+    <rect class="box sequence" x="915" y="40" width="15" height="15"/><text class="bit-text" x="922.5" y="47.5">s</text>
+    <rect class="box sequence" x="930" y="40" width="15" height="15"/><text class="bit-text" x="937.5" y="47.5">s</text>
+    <rect class="box sequence" x="945" y="40" width="15" height="15"/><text class="bit-text" x="952.5" y="47.5">s</text>
+  </g>
+
+</svg>
