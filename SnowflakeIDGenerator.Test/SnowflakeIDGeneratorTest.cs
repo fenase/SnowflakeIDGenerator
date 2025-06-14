@@ -304,7 +304,7 @@ namespace SnowflakeID.Test
                 }
                 else
                 {
-                    Assert.That(sStatic.Sequence, Is.EqualTo(0));
+                    Assert.That(sStatic.Sequence, Is.Zero);
                 }
             });
         }

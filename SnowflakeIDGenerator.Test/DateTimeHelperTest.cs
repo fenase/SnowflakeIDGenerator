@@ -18,7 +18,7 @@ namespace SnowflakeID.Test
         {
             Assert.Multiple(() =>
             {
-                Assert.That(DateTimeHelper.TimestampMillisFromEpoch(UnixEpoch, UnixEpoch), Is.EqualTo(0));
+                Assert.That(DateTimeHelper.TimestampMillisFromEpoch(UnixEpoch, UnixEpoch), Is.Zero);
                 Assert.That(DateTimeHelper.TimestampMillisFromEpoch(CustomEpoch, UnixEpoch), Is.EqualTo(1577836800000));
             });
         }

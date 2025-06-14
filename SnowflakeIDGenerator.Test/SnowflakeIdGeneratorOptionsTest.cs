@@ -24,7 +24,7 @@ namespace SnowflakeID.Test
             SnowflakeIdGeneratorOptions obj = new();
             Assert.Multiple(() =>
             {
-                Assert.That(obj.MachineId, Is.EqualTo(0));
+                Assert.That(obj.MachineId, Is.Zero);
                 Assert.That(obj.EpochObject, Is.EqualTo(UnixEpoch));
                 Assert.That(obj.EpochObject.Kind, Is.EqualTo(DateTimeKind.Utc));
                 Assert.That(obj.EpochObject.Kind, Is.EqualTo(UnixEpoch.Kind));
@@ -57,7 +57,7 @@ namespace SnowflakeID.Test
             }
             else
             {
-                Assert.That(obj.MachineId, Is.EqualTo(0));
+                Assert.That(obj.MachineId, Is.Zero);
             }
 
             if (!string.IsNullOrWhiteSpace(epoch))
