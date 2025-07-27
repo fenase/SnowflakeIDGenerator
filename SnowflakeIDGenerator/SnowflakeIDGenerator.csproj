@@ -13,7 +13,7 @@ Parse a Snowflake to get information about it's creation.
 		<EnforceCodeStyleInBuild>True</EnforceCodeStyleInBuild>
 		<EnableNETAnalyzers>True</EnableNETAnalyzers>
 		<AnalysisLevel>latest-all</AnalysisLevel>
-		<VersionPrefix>1.5</VersionPrefix>
+		<VersionPrefix>1.6</VersionPrefix>
 		<VersionSuffix>$([System.DateTime]::UtcNow.ToString(yyyy)).$([System.DateTime]::UtcNow.DayOfYear.ToString())</VersionSuffix>
 		<Version>$(VersionPrefix).$(VersionSuffix)</Version>
 		<PackageLicenseExpression>BSD-3-Clause</PackageLicenseExpression>
