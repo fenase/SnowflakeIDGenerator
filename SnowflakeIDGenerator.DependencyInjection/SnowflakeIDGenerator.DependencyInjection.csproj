@@ -1,7 +1,7 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
 	<PropertyGroup>
-		<TargetFrameworks>netstandard2.0;netstandard2.1;net6.0;net8.0;net9.0</TargetFrameworks>
+		<TargetFrameworks>netstandard2.0;netstandard2.1;net6.0;net8.0;net9.0;net10.0</TargetFrameworks>
 		<GeneratePackageOnBuild>False</GeneratePackageOnBuild>
 		<Title>Generate unique identifiers based on Twitter's Snowflake ID. Dependency injection extension package.</Title>
 		<Description>Extends package SnowflakeIDGenerator to help in configuring the snowflakeId generator using dependency injection</Description>
@@ -48,14 +48,19 @@
 		</PackageReference>
 	</ItemGroup>
 
-	<ItemGroup Condition="'$(TargetFramework)' == 'net6.0'">
-		<PackageReference Include="Microsoft.Extensions.Options" Version="8.0.2" />
-		<PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="8.0.2" />
+	<ItemGroup Condition="'$(TargetFramework)' == 'net10.0'">
+		<PackageReference Include="Microsoft.Extensions.Options" Version="[10,)" />
+		<PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="[10,)" />
 	</ItemGroup>
 
 	<ItemGroup Condition="'$(TargetFramework)' == 'netstandard2.0' OR '$(TargetFramework)' == 'netstandard2.1' OR '$(TargetFramework)' == 'net8.0' OR '$(TargetFramework)' == 'net9.0'">
-		<PackageReference Include="Microsoft.Extensions.Options" Version="9.0.8" />
-		<PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="9.0.8" />
+		<PackageReference Include="Microsoft.Extensions.Options" Version="[9.0.8,)" />
+		<PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="[9.0.8,)" />
+	</ItemGroup>
+
+	<ItemGroup Condition="'$(TargetFramework)' == 'net6.0'">
+		<PackageReference Include="Microsoft.Extensions.Options" Version="8.0.2" />
+		<PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="8.0.2" />
 	</ItemGroup>
 
 	<ItemGroup>

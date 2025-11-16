@@ -1,7 +1,7 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
 	<PropertyGroup>
-		<TargetFrameworks>net20;net35;net40;netstandard1.3;netstandard2.0;netstandard2.1;net6.0;net8.0;net9.0</TargetFrameworks>
+		<TargetFrameworks>net20;net35;net40;netstandard1.3;netstandard2.0;netstandard2.1;net6.0;net8.0;net9.0;net10.0</TargetFrameworks>
 		<GeneratePackageOnBuild>False</GeneratePackageOnBuild>
 		<Title>Generate unique identifiers based on Twitter's Snowflake ID. Parse a Snowflake to get information about it's creation.</Title>
 		<Description>Generate unique identifiers based on Twitter's Snowflake ID.
